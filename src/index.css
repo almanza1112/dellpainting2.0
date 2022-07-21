@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    li {
+        @apply p-4;
+        @apply cursor-pointer;
+    }
+
+    li.active {
+        @apply bg-red-900;
+    }
+
+    li:hover {
+        @apply bg-red-200;
+    }
+
+}
+
+@layer utilities {}
