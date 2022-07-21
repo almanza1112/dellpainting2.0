@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <nav className='w-full h-20 flex justify-between items-center px-4'>
+        <nav className='w-full h-20 flex justify-between items-center px-4 fixed'>
             <img src={Logo} style={{ width: '100px' }} />
 
             {/* Menu */}
@@ -30,7 +30,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            <ul className={nav ? 'absolute top-[80px] right-0 pt-4 w-full h-screen bg-white duration-500 border-l-8 border-black' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
+            <ul className={nav ? 'absolute top-[80px] right-0 pt-4 w-full h-screen bg-white duration-500 border-l-8 border-black z-10' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
                 <CustomLink onClick={nav === true} to='/'>HOME</CustomLink>
                 <CustomLink onClick={nav === true} to='/services'>SERVICES</CustomLink>
                 <CustomLink onClick={nav === true} to='/portfolio'>PORTFOLIO</CustomLink>
