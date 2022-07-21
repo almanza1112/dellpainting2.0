@@ -4,17 +4,21 @@
 
 
 @layer base {
-    li {
+    nav li {
         @apply p-4;
         @apply cursor-pointer;
+        @apply transition;
+        @apply ease-in;
     }
 
     li.active {
-        @apply bg-red-900;
+        @apply border-b-2;
+        @apply border-red-700;
     }
 
     li:hover {
-        @apply bg-red-200;
+        @apply -translate-y-1;
+        @apply scale-110;
     }
 
 }
