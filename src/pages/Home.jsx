@@ -7,28 +7,17 @@ const Home = () => {
 
       {/* Container */}
       <div className='w-full justify-center h-full'>
+        <div className='overlay'></div>
         <video src={bgVideo} autoPlay loop muted playsInline />
-        <div className='home-content'>
-
-          <p className='text-xl sm:text-4xl text-[#f2486a] font-bold'>Hello! My name is</p>
-          <h1 className='text-4xl sm:text-7xl font-bold text-gray-300'>Bryant Almanza</h1>
-          <h2 className='text-4xl sm:text-7xl font-bold text-gray-400'>I'm a Full Stack Developer.</h2>
+        <div className='absolute w-full h-full top-0 flex flex-col justify-center px-4 md:px-8'>
+          <p className='text-3xl md:text-6xl font-bold text-gray-200'>PAINTERS YOU CAN TRUST</p>
+          <p className='md:text-3xl my-4 text-gray-200 uppercase'>Over 25 years of experience at the your service </p>
+          <div className=''>
+            <button className='border-2 border-black p-2 hover:bg-red-600 hover:border-red-600 hover:text-gray-200'>GET IN TOUCH</button>
+          </div>
         </div>
-
-
       </div>
     </div>
-    // <div className='home'>
-    //   <div className='overlay'></div>
-    //   <video src={bgVideo} autoPlay loop muted playsInline />
-    //   <div className='home-content'>
-    //     <div className='text-2xl sm:text-4xl md:text-6xl font-bold'>TESTING TESTING 123</div>
-    //     <div className=' my-4'>Sub text does here</div>
-    //     <div>
-    //       <button className='flat-btn my-2'>LEARN MORE ABOUT US</button>
-    //     </div>
-    //   </div>
-    // </div>
   )
 }
 
