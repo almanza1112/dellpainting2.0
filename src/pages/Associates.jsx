@@ -2,8 +2,9 @@ import React from 'react'
 
 const Associates = () => {
   return (
-    <div>Associates</div>
-  )
+    <div className='section-style'>
+
+    </div>)
 }
 
 export default Associates

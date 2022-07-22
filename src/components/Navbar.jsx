@@ -11,7 +11,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <nav className='w-full h-20 flex justify-between items-center p-4 md:p-8 fixed bg-white z-10'>
+        <nav className='w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10'>
             <img src={Logo} style={{ width: '100px' }} />
 
             {/* Menu */}
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <CustomLink onClick={nav === true} to='/associates'>ASSOCIATES</CustomLink>
                 <CustomLink onClick={nav === true} to='/contact'>CONTACT</CustomLink>
             </ul>
-        </nav>
+        </nav >
     )
 }
 

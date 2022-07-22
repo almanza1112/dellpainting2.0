@@ -2,7 +2,9 @@ import React from 'react'
 
 const Careers = () => {
   return (
-    <div>Careers</div>
+    <div className='section-style'>
+
+    </div>
   )
 }
 
