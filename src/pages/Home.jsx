@@ -12,7 +12,6 @@ const Home = () => {
 
       {/* Container */}
       <div className='w-full justify-center h-full'>
-        <div className='overlay'></div>
         <video ref={videoRef} onCanPlay={() => setPlayBack()} src={bgVideo} autoPlay loop muted playsInline className='blur-lg' />
         <div className='absolute w-full h-full top-0 flex flex-col justify-center p-4 md:p-8 items-center md:items-start'>
           <p className='text-2xl md:text-6xl font-bold text-white drop-shadow-xl'>PAINTERS YOU CAN TRUST</p>
