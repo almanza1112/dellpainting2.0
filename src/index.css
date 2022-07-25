@@ -31,9 +31,15 @@
 
 @layer utilities {
 
-    .section-style {
+    .main-style {
         @apply w-full;
         @apply h-screen;
+    }
+
+    .content-style {
+        @apply w-full;
+        @apply md:h-screen;
+        @apply bg-slate-100;
     }
 
     .overlay {
