@@ -48,4 +48,44 @@
         @apply w-full h-full;
         @apply bg-[#0000003e]
     }
+
+    .main-bg-img {
+        @apply w-full;
+        @apply h-[60vh];
+        @apply object-cover;
+        @apply grayscale;
+    }
+
+    .main-content {
+        @apply max-w-screen-2xl;
+        @apply w-full;
+        @apply h-[40vh];
+        @apply bottom-0;
+        @apply grid md:grid-cols-3 xl:grid-cols-4;
+        @apply p-4 md:p-8;
+        @apply mx-auto;
+    }
+
+    .main-title-section {
+        @apply flex flex-col;
+        @apply justify-center items-center md:items-start;
+    }
+
+    .main-title-top {
+        @apply text-red-600;
+        @apply text-2xl md:text-4xl;
+        @apply md:pb-4;
+    }
+
+    .main-title-bottom {
+        @apply text-black;
+        @apply text-3xl md:text-5xl;
+    }
+
+    .main-desc-section {
+        @apply col-span-1 md:col-span-2;
+        @apply flex flex-col;
+        @apply justify-center;
+        @apply items-center;
+    }
 }
