@@ -8,7 +8,7 @@ const Services = () => {
       <div className='max-w-screen-2xl w-full h-[40vh] bottom-0 grid md:grid-cols-3 xl:grid-cols-4 p-4 md:p-8 mx-auto'>
         <div className='flex flex-col justify-center items-center md:items-start'>
           <p className='text-red-600 text-xl md:text-4xl md:pb-4'>OUR</p>
-          <p className='text-black text-3xl md:text-6xl'>SERVICES</p>
+          <p className='text-black text-3xl md:text-5xl'>SERVICES</p>
         </div>
 
         <div className='col-span-1 md:col-span-2 flex flex-col justify-center md:pl-8'>
