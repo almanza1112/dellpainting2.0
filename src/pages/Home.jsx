@@ -2,10 +2,6 @@ import React, { useRef } from 'react'
 import bgVideo from '../assets/home_vid_bg.mp4'
 
 const Home = () => {
-  // let video = document.querySelector('video')
-  // video.defaultPlaybackRate = 4
-  // video.load()
-
   const videoRef = useRef();
   const setPlayBack = () => {
     videoRef.current.playbackRate = 2.5;
