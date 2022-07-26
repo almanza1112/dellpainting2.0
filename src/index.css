@@ -88,4 +88,39 @@
         @apply justify-center;
         @apply items-center;
     }
+
+    .services-item {
+        @apply shadow-lg;
+        @apply shadow-[#040c16];
+        @apply container;
+        @apply flex;
+        @apply justify-center;
+        @apply items-center;
+        @apply mx-auto;
+        @apply hover:scale-110 duration-500;
+    }
+
+    .services-item-title {
+        @apply text-2xl;
+        @apply text-white;
+    }
+
+    .services-item-img {
+        @apply bg-no-repeat;
+        @apply bg-cover;
+        @apply bg-center;
+        @apply h-[350px];
+    }
+
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(to right, rgba(237, 127, 149, 0.8), rgba(242, 72, 106, 0.8)) !important;
 }
