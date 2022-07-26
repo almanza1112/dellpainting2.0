@@ -10,9 +10,21 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
 
+    // Change navbar when scrolling
+    const [color, setColor] = useState(false)
+    const changeColor = () => {
+        if (window.scrollY >= 80) {
+            setColor(true)
+        } else {
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
+
     return (
-        <nav className='w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10'>
-            <img src={Logo} style={{ width: '100px' }} />
+        <nav className={color ? 'bg-slate-50 border-b duration-700 border-black w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10' : 'w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10'}>
+            <img src={Logo} style={{ width: '100px' }}  className='z-20'/>
 
             {/* Menu */}
             <ul className='hidden md:flex'>
@@ -25,12 +37,12 @@ const Navbar = () => {
             </ul>
 
             {/* Hamburger */}
-            <div onClick={handleClick} className='md:hidden z-10'>
+            <div onClick={handleClick} className='md:hidden z-20'>
                 {!nav ? <HiMenuAlt4 /> : <FaTimes />}
             </div>
 
             {/* Mobile Menu */}
-            <ul className={nav ? 'absolute top-[80px] right-0 pt-4 w-full h-screen bg-white duration-500 border-l-8 border-black z-10' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
+            <ul className={nav ? 'absolute top-0 right-0 pt-[80px] w-full h-screen bg-slate-50 duration-500 border-l-8 border-black z-10' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
                 <CustomLink onClick={nav === true} to='/'>HOME</CustomLink>
                 <CustomLink onClick={nav === true} to='/services'>SERVICES</CustomLink>
                 <CustomLink onClick={nav === true} to='/portfolio'>PORTFOLIO</CustomLink>
