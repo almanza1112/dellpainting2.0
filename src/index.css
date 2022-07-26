@@ -57,11 +57,11 @@
     }
 
     .main-content {
-        @apply max-w-screen-2xl;
+        @apply max-w-screen-xl;
         @apply w-full;
         @apply h-[40vh];
         @apply bottom-0;
-        @apply grid md:grid-cols-3 xl:grid-cols-4;
+        @apply grid md:grid-cols-3 lg:grid-cols-4;
         @apply p-4 md:p-8;
         @apply mx-auto;
     }
@@ -75,15 +75,17 @@
         @apply text-red-600;
         @apply text-2xl md:text-4xl;
         @apply md:pb-4;
+        @apply font-light;
     }
 
     .main-title-bottom {
         @apply text-black;
         @apply text-3xl md:text-5xl;
+        @apply font-extralight;
     }
 
     .main-desc-section {
-        @apply col-span-1 md:col-span-2;
+        @apply col-span-1 md:col-span-2 lg:col-span-3;
         @apply flex flex-col;
         @apply justify-center;
         @apply items-center;
