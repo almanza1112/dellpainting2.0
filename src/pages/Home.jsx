@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import bgVideo from '../assets/home_vid_bg.mp4'
+import bgVideo from '../assets/compressed.mp4'
 
 const Home = () => {
   const videoRef = useRef();
