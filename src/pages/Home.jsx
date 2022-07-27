@@ -12,7 +12,7 @@ const Home = () => {
 
       {/* Container */}
       <div className='w-full justify-center h-full'>
-        <video ref={videoRef} onCanPlay={() => setPlayBack()} src={bgVideo} autoPlay loop muted playsInline/>
+        <video src={bgVideo} autoPlay loop muted playsInline/>
         <div className='absolute w-full h-full top-0 flex flex-col justify-center p-4 md:p-8 items-center md:items-start'>
           <div className='backdrop-blur-lg p-8'>
             <p className='text-2xl md:text-6xl font-bold text-white drop-shadow-xl'>PAINTERS YOU CAN TRUST</p>
