@@ -4,7 +4,7 @@ import ServicesImg from '../assets/services.jpg'
 
 const Portfolio = () => {
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-screen bg-slate-50'>
       <img src={ServicesImg} className='main-bg-img' />
       <div className='main-content'>
         <div className='main-title-section'>

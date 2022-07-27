@@ -8,40 +8,40 @@ const ServicesContent = () => {
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16'>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>MAINTENANCE</span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>MAINTENANCE</span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>NEW CONSTRUCTION</span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>NEW CONSTRUCTION</span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>WALLCOVERING </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>WALLCOVERING </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>SPECIALiTY FINISHES</span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>SPECIALiTY FINISHES</span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>FRP PANELS </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>FRP PANELS </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>SPACKLE </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>SPACKLE </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>MINWAX STAINING </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>MINWAX STAINING </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>SKIM COATING/LEVEL 5 FINISH </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>SKIM COATING/LEVEL 5 FINISH </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='services-item services-item-img'>
-                        <span className='services-item-title'>WALL TALKERS </span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                        <span className='card-title'>WALL TALKERS </span>
                     </div>
                 </div>
             </div>
