@@ -51,15 +51,14 @@
 
     .main-bg-img {
         @apply w-full;
-        @apply h-[60vh];
+        @apply h-[50vh] md:h-[70vh];
         @apply object-cover;
-        @apply grayscale;
     }
 
     .main-content {
         @apply max-w-screen-xl;
         @apply w-full;
-        @apply h-[40vh];
+        @apply h-[50vh] md:h-[30vh];
         @apply bottom-0;
         @apply grid md:grid-cols-3 lg:grid-cols-4;
         @apply p-4 md:p-8;
@@ -67,14 +66,14 @@
     }
 
     .main-title-section {
-        @apply flex flex-col;
+        @apply flex flex-row sm:flex-col;
         @apply justify-center items-center md:items-start;
     }
 
     .main-title-top {
         @apply text-red-600;
         @apply text-2xl md:text-4xl;
-        @apply md:pb-4;
+        @apply md:pb-4 pr-2 sm:pr-0;
         @apply font-light;
     }
 

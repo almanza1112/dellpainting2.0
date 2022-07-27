@@ -23,7 +23,7 @@ const Navbar = () => {
     window.addEventListener('scroll', changeColor)
 
     return (
-        <nav className={color ? 'bg-slate-50 border-b duration-700 border-black w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10' : 'w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10'}>
+        <nav className='w-full h-20 flex justify-between items-center p-4 md:p-8 fixed z-10 bg-slate-50/[.9] '>
             <img src={Logo} style={{ width: '100px' }}  className='z-20'/>
 
             {/* Menu */}
