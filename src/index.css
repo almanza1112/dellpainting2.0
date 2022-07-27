@@ -27,6 +27,11 @@
         @apply object-cover;
     }
 
+    body {
+        @apply font-light;
+        @apply text-gray-700;
+    }
+
 }
 
 @layer utilities {
@@ -90,29 +95,36 @@
         @apply items-center;
     }
 
-    .services-item {
-        @apply shadow-lg;
-        @apply shadow-[#040c16];
+    .card {
+        @apply shadow-2xl drop-shadow-xl;
         @apply container;
         @apply flex;
         @apply justify-center;
-        @apply items-center;
+        @apply items-end;
         @apply mx-auto;
-        @apply hover:scale-110 duration-500;
+        @apply hover:scale-110 duration-200;
     }
 
-    .services-item-title {
-        @apply text-2xl;
-        @apply text-white;
+    .card-title {
+        @apply uppercase;
+        @apply bg-stone-100;
+        @apply w-full p-4;
+        @apply justify-start flex;
     }
 
-    .services-item-img {
+    .portfolio-card-img {
+        @apply bg-no-repeat;
+        @apply bg-cover;
+        @apply bg-center;
+        @apply h-[250px];
+    }
+
+    .services-card-img {
         @apply bg-no-repeat;
         @apply bg-cover;
         @apply bg-center;
         @apply h-[350px];
     }
-
 }
 
 .content-div {
