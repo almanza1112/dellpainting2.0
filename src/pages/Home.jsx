@@ -1,11 +1,12 @@
-import React, { useRef } from 'react'
+import React,{useEffect} from 'react'
 import bgVideo from '../assets/compressed.mp4'
 
 const Home = () => {
-  const videoRef = useRef();
-  const setPlayBack = () => {
-    videoRef.current.playbackRate = 2.5;
-  }
+
+  // Makes sure page starts on top when rendered
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div name='home' className='section-style'>

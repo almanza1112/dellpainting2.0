@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import ServicesImg from '../assets/services.jpg'
 
 
 const Portfolio = () => {
+  
+  // Makes sure page starts on top when rendered
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className='w-full h-screen bg-slate-50'>
       <img src={ServicesImg} className='main-bg-img' />
