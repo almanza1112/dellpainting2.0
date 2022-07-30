@@ -66,8 +66,9 @@
         @apply h-[50vh] md:h-[30vh];
         @apply bottom-0;
         @apply grid md:grid-cols-3 lg:grid-cols-4;
-        @apply p-4 md:p-8;
+        @apply p-4 md:px-8 py-4 md:py-16;
         @apply mx-auto;
+        @apply md:divide-x;
     }
 
     .main-title-section {
@@ -93,6 +94,7 @@
         @apply flex flex-col;
         @apply justify-center;
         @apply items-center;
+        @apply md:pl-8;
     }
 
     .card {
