@@ -11,12 +11,12 @@
         @apply ease-in;
     }
 
-    li.active {
+    nav li.active {
         @apply border-b-2;
         @apply border-red-700;
     }
 
-    li:hover {
+    nav li:hover {
         @apply -translate-y-1;
         @apply scale-110;
     }
