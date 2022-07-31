@@ -19,7 +19,10 @@ const Services = () => {
 
         <div className='main-desc-section'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem id aspernatur, quibusdam accusantium repellendus officiis. Tempora ipsa itaque, dignissimos molestias at doloribus quas, id et, cumque deserunt odio! Consectetur.
+            Throughout the many years of service, our amazing team has expanded to more than 
+            just painting. We offer a diverse number services as you see below, each delivered 
+            with top quality and expectactions. Please reach out to us if you are looking for
+            something specific and do not see it here.   
           </p>
         </div>
       </div>

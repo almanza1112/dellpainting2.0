@@ -93,23 +93,23 @@
         @apply col-span-1 md:col-span-2 lg:col-span-3;
         @apply flex flex-col;
         @apply justify-center;
-        @apply items-center;
+        @apply items-start;
         @apply md:pl-8;
     }
 
     .card {
-        @apply shadow-2xl drop-shadow-xl;
         @apply container;
         @apply flex;
         @apply justify-center;
         @apply items-end;
         @apply mx-auto;
-        @apply hover:scale-110 duration-200;
+        @apply md:hover:scale-110 duration-200;
+        @apply hover:border-red-600 hover:border;
     }
 
-    .card-title {
+    .card-title {   
         @apply uppercase;
-        @apply bg-stone-100;
+        @apply bg-gray-200;
         @apply w-full p-4;
         @apply justify-start flex;
     }
