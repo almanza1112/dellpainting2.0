@@ -2,6 +2,7 @@ import React from 'react'
 import MaintenanceImg from '../../assets/maintenance.png'
 import WallcoveringThmb from '../../assets/wallcovering_thmb.png'
 import MinwaxThmb from '../../assets/minwax_thmb.png'
+import SpecialityThmb from '../../assets/speciality_thmb.jpg'
 
 const ServicesContent = () => {
     return (
@@ -22,8 +23,8 @@ const ServicesContent = () => {
                         <span className='card-title'>WALLCOVERING </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MaintenanceImg})` }} className='card services-card-img'>
-                        <span className='card-title'>SPECIALiTY FINISHES</span>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${SpecialityThmb})` }} className='card services-card-img'>
+                        <span className='card-title'>SPECIALITY FINISHES</span>
                     </div>
                     {/* Item */}
                     <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MaintenanceImg})` }} className='card services-card-img'>
