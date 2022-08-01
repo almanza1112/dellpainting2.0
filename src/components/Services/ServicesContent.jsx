@@ -4,6 +4,7 @@ import WallcoveringThmb from '../../assets/wallcovering_thmb.png'
 import MinwaxThmb from '../../assets/minwax_thmb.png'
 import SpecialityThmb from '../../assets/speciality_thmb.jpg'
 import SpackleThmb from '../../assets/spackle_thmb.png'
+import WalltalkersThmb from '../../assets/walltalkers_thmb.png'
 
 const ServicesContent = () => {
     return (
@@ -44,7 +45,7 @@ const ServicesContent = () => {
                         <span className='card-title'>SKIM COATING/LEVEL 5 FINISH </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${WalltalkersThmb})` }} className='card services-card-img'>
                         <span className='card-title'>WALLTALKERS </span>
                     </div>
                 </div>
