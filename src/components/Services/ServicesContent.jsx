@@ -7,6 +7,7 @@ import SpackleThmb from '../../assets/spackle_thmb.png'
 import WalltalkersThmb from '../../assets/walltalkers_thmb.png'
 import SkimThmb from '../../assets/skim.png'
 import NewConstructiong from '../../assets/new_construction_thmb.jpg'
+import FRPPanelsThmb from '../../assets/frp_panels_thmb.jpg'
 
 const ServicesContent = () => {
     return (
@@ -31,7 +32,7 @@ const ServicesContent = () => {
                         <span className='card-title'>SPECIALITY FINISHES</span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MaintenanceThmb})` }} className='card services-card-img'>
+                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${FRPPanelsThmb})` }} className='card services-card-img'>
                         <span className='card-title'>FRP PANELS </span>
                     </div>
                     {/* Item */}
