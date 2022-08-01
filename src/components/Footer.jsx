@@ -26,13 +26,13 @@ const Footer = () => {
             <p className='fss-title'>Services</p>
             <ul>
               <CustomLink to='/services/maintenance'>Maintenance</CustomLink>
-              <CustomLink to='/services/newConstruction'>New Construction</CustomLink>
+              <CustomLink to='/services/newconstruction'>New Construction</CustomLink>
               <CustomLink to='/services/wallcovering'>Wallcovering</CustomLink>
-              <CustomLink to='/services/specialityFinishes'>Speciality Finishes</CustomLink>
-              <CustomLink to='/services/frpPanels'>FRP Panels</CustomLink>
+              <CustomLink to='/services/speciality'>Speciality Finishes</CustomLink>
+              <CustomLink to='/services/frppanels'>FRP Panels</CustomLink>
               <CustomLink to='/services/spackle'>Spackle</CustomLink>
-              <CustomLink to='/services/minwaxStaining'>Minwax Staining</CustomLink>
-              <CustomLink to='/services/skimCoating'>Skim Coating / Level 5 Finish</CustomLink>
+              <CustomLink to='/services/minwax'>Minwax Staining</CustomLink>
+              <CustomLink to='/services/skim'>Skim Coating / Level 5 Finish</CustomLink>
               <CustomLink to='/services/walltalkers'>Wall Talkers</CustomLink>
             </ul>
           </div>
