@@ -1,6 +1,7 @@
 import React from 'react'
 import MaintenanceImg from '../../assets/maintenance.jpeg'
-import WallcoveringImg from '../../assets/wallcovering_thmb.png'
+import WallcoveringThmb from '../../assets/wallcovering_thmb.png'
+import MinwaxThmb from '../../assets/minwax_thmb.png'
 
 const ServicesContent = () => {
     return (
@@ -13,11 +14,11 @@ const ServicesContent = () => {
                         <span className='card-title'>MAINTENANCE</span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `url(${WallcoveringImg})` }} className='card services-card-img'>
+                    <div style={{ backgroundImage: `url(${WallcoveringThmb})` }} className='card services-card-img'>
                         <span className='card-title'>NEW CONSTRUCTION</span>
                     </div>
                     {/* Item */}
-                <div style={{ backgroundImage: `url(${WallcoveringImg})` }} className='card services-card-img'>
+                <div style={{ backgroundImage: `url(${WallcoveringThmb})` }} className='card services-card-img'>
                         <span className='card-title'>WALLCOVERING </span>
                     </div>
                     {/* Item */}
@@ -33,7 +34,7 @@ const ServicesContent = () => {
                         <span className='card-title'>SPACKLE </span>
                     </div>
                     {/* Item */}
-                    <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${MaintenanceImg})` }} className='card services-card-img'>
+                    <div style={{ backgroundImage: `url(${MinwaxThmb})` }} className='card services-card-img'>
                         <span className='card-title'>MINWAX STAINING </span>
                     </div>
                     {/* Item */}
