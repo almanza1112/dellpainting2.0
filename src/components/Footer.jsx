@@ -5,7 +5,7 @@ import MBELogo from '../assets/mbe.png'
 
 const Footer = () => {
   return (
-    <div className='w-full h-full bg-black text-gray-200'>
+    <div className='w-full bg-black text-gray-200'>
       <div className='max-w-screen-xl w-full h-full mx-auto px-4 py-8 md:px-8 md:py-16 justify-center flex'>
         <div className='w-full grid md:grid-cols-3 gap-8 md:gap-16'>
 

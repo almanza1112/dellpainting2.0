@@ -1,4 +1,5 @@
 import React,{useEffect}from 'react'
+import { Outlet } from 'react-router-dom'
 import ServicesImg from '../assets/services.jpg'
 
 const Services = () => {
@@ -26,6 +27,7 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <Outlet/>
     </div>
   )
 }
