@@ -7,10 +7,9 @@ const Maintenance = () => {
 
   const myRef = useRef()
   const executeScroll = () => myRef.current.scrollIntoView();
-  // Makes sure page starts on top when rendered
+  // Makes sure page starts on top of section when rendered
   useEffect(() => {
     executeScroll()
-    //window.scrollTo(0, 0)
   }, [])
 
   return (
