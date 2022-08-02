@@ -128,6 +128,50 @@
         @apply h-[350px];
     }
 
+    /* Services sub-sections */
+    .sss-style {
+        @apply w-full;
+        @apply md:h-screen;
+        @apply bg-slate-50;
+    }
+
+    .sss-container{
+        @apply max-w-screen-xl; 
+        @apply w-full h-full;
+        @apply mx-auto;
+        @apply p-4 md:px-8 py-4 md:py-16;
+        @apply flex flex-col;
+        @apply justify-center;
+    }
+
+    .sss-back {
+        @apply inline-flex;
+        @apply justify-start;
+        @apply items-center;
+        @apply text-red-600;
+        @apply mb-8;
+    }
+
+    .sss-back-text {
+        @apply text-gray-500;
+    }
+
+    .sss-content {
+        @apply grid grid-cols-2;
+        @apply gap-4 md:gap-16;
+    }
+
+    .sss-text {
+        @apply flex flex-col;
+        @apply justify-center;
+    }
+
+    .sss-title{
+        @apply text-2xl;
+        @apply uppercase;;
+        @apply py-4 md:py-8;
+    }
+
     /* Footer Section */
     .fss-container {
         @apply flex flex-col;
