@@ -45,7 +45,7 @@ const Wallcovering = () => {
               </li>
             </ul>
           </div>
-          <div className='flex justify-center items-center'>
+          <div className='sss-image'>
             <img src={WallcoveringImg} />
           </div>
         </div>

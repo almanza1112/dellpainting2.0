@@ -172,6 +172,11 @@
         @apply py-4 md:py-8;
     }
 
+    .sss-image{
+        @apply flex flex-col;
+        @apply justify-center;
+    }
+
     /* Footer Section */
     .fss-container {
         @apply flex flex-col;

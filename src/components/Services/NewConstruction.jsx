@@ -25,7 +25,9 @@ const NewConstruction = () => {
               Shoe- molding, Wainscoting, Window Trims.
             </p>
           </div>
-          <img src={NewConstructionImg} />
+          <div className='sss-image'>
+            <img src={NewConstructionImg} />
+          </div>
         </div>
       </div>
 

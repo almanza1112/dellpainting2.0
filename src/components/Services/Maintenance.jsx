@@ -27,7 +27,9 @@ const Maintenance = () => {
               surfaces.
             </p>
           </div>
-          <img src={MaintenanceImg}/>
+          <div className='sss-image'>
+            <img src={MaintenanceImg} />
+          </div>
         </div>
       </div>
 
