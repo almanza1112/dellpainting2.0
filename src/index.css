@@ -118,7 +118,7 @@
         @apply bg-no-repeat;
         @apply bg-cover;
         @apply bg-center;
-        @apply h-[250px];
+        @apply h-[350px];
     }
 
     .services-card-img {

@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import ServicesImg from '../assets/services.jpg'
+import PortfolioImg from '../assets/portfolio.jpg'
 
 
 const Portfolio = () => {
@@ -11,7 +11,7 @@ const Portfolio = () => {
 
   return (
     <div className='w-full h-screen bg-slate-50'>
-      <img src={ServicesImg} className='main-bg-img' />
+      <img src={PortfolioImg} className='main-bg-img' />
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -20,7 +20,8 @@ const Portfolio = () => {
 
         <div className='main-desc-section'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem id aspernatur, quibusdam accusantium repellendus officiis. Tempora ipsa itaque, dignissimos molestias at doloribus quas, id et, cumque deserunt odio! Consectetur.
+            From office buildings to restuarants, we have done it all and our clients have always 
+            been more than 100% satisfied. Here is just a small sample of our work over the years.
           </p>
         </div>
       </div>
