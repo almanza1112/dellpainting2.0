@@ -19,6 +19,7 @@ import Spackle from './components/Services/Spackle'
 import Minwax from './components/Services/Minwax'
 import Skim from './components/Services/Skim'
 import Walltalkers from './components/Services/Walltalkers'
+import CareersContent from "./components/Careers/CareersContent"
 
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
           <Route path='walltalkers' element={<><Walltalkers /> <Footer /></>} />
         </Route>
         <Route path="/portfolio" element={<><Portfolio /> <PortfolioContent/><Footer /></>} />
-        <Route path="/careers" element={<><Careers /> <Footer /></>} />
+        <Route path="/careers" element={<><Careers /> <CareersContent/> <Footer /></>} />
         <Route path="/associates" element={<><Associates /> <Footer /></>} />
         <Route path="/contact" element={<><Contact /> <Footer /></>} />
       </Routes>
