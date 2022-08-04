@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import PortfolioImg from '../assets/portfolio.jpg'
+import PortfolioImg from '../assets/Portfolio/portfolio_main.jpg'
 
 
 const Portfolio = () => {

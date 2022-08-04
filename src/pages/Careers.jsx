@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import ServicesImg from '../assets/services.jpg'
+import ServicesImg from '../assets/Services/services_main.jpg'
 
 const Careers = () => {
 

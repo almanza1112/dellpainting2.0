@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import FRPPanelsImg from '../../assets/frp_panels.jpg'
+import FRPPanelsImg from '../../assets/Services/frp_panels.jpg'
 
 const FRPPanels = () => {
 

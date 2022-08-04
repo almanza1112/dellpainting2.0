@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import NewConstructionImg from '../../assets/new_construction.jpg'
+import NewConstructionImg from '../../assets/Services/new_construction.jpg'
 
 const NewConstruction = () => {
 

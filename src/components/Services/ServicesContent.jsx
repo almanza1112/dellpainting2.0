@@ -1,14 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import MaintenanceThmb from '../../assets/maintenance_thmb.png'
-import WallcoveringThmb from '../../assets/wallcovering_thmb.png'
-import MinwaxThmb from '../../assets/minwax_thmb.png'
-import SpecialityThmb from '../../assets/speciality_thmb.jpg'
-import SpackleThmb from '../../assets/spackle_thmb.png'
-import WalltalkersThmb from '../../assets/walltalkers_thmb.png'
-import SkimThmb from '../../assets/skim.png'
-import NewConstructiong from '../../assets/new_construction_thmb.jpg'
-import FRPPanelsThmb from '../../assets/frp_panels_thmb.jpg'
+import MaintenanceThmb from '../../assets/Services/maintenance_thmb.png'
+import WallcoveringThmb from '../../assets/Services/wallcovering_thmb.png'
+import MinwaxThmb from '../../assets/Services/minwax_thmb.png'
+import SpecialityThmb from '../../assets/Services/speciality_thmb.jpg'
+import SpackleThmb from '../../assets/Services/spackle_thmb.png'
+import WalltalkersThmb from '../../assets/Services/walltalkers_thmb.png'
+import SkimThmb from '../../assets/Services/skim.png'
+import NewConstructiong from '../../assets/Services/new_construction_thmb.jpg'
+import FRPPanelsThmb from '../../assets/Services/frp_panels_thmb.jpg'
 
 const ServicesContent = () => {
     return (

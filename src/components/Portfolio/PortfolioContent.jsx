@@ -1,5 +1,5 @@
 import React from 'react'
-import MaintenanceImg from '../../assets/maintenance.png'
+import MaintenanceImg from '../../assets/Services/maintenance.png'
 
 const PortfolioContent = () => {
   return (

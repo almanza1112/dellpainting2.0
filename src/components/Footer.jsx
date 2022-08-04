@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useResolvedPath } from 'react-router-dom'
-import SBELogo from '../assets/sbe.png'
-import MBELogo from '../assets/mbe.png'
+import SBELogo from '../assets/Footer/sbe.png'
+import MBELogo from '../assets/Footer/mbe.png'
 
 const Footer = () => {
   return (

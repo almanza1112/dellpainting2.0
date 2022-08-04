@@ -1,7 +1,7 @@
 import React,{useEffect, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import MaintenanceImg from '../../assets/maintenance.png'
+import MaintenanceImg from '../../assets/Services/maintenance.png'
 
 const Maintenance = () => {
 

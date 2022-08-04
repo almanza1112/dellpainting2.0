@@ -1,6 +1,6 @@
 import React,{useEffect}from 'react'
 import { Outlet } from 'react-router-dom'
-import ServicesImg from '../assets/services.jpg'
+import ServicesImg from '../assets/Services/services_main.jpg'
 
 const Services = () => {
 

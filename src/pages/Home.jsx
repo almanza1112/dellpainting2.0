@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import bgVideo from '../assets/dellpainting-bg-vid.mp4'
+import bgVideo from '../assets/Home/dellpainting-bg-vid.mp4'
 
 const Home = () => {
 

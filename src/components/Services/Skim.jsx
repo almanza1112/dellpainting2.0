@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import SkimImg from '../../assets/skim.png'
+import SkimImg from '../../assets/Services/skim.png'
 
 const Skim = () => {
 

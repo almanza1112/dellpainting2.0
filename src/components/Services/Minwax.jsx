@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import MinwaxImg from '../../assets/minwax.png'
+import MinwaxImg from '../../assets/Services/minwax.png'
 
 const Minwax = () => {
 

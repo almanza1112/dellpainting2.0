@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import SpackleImg from '../../assets/spackle.png'
+import SpackleImg from '../../assets/Services/spackle.png'
 
 const Spackle = () => {
 

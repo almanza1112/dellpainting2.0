@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { MdOutlineArrowBackIosNew } from 'react-icons/md'
-import SpecialityImg from '../../assets/speciality.jpg'
+import SpecialityImg from '../../assets/Services/speciality.jpg'
 
 const SpecialityFinishes = () => {
 
