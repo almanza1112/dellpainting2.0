@@ -9,7 +9,7 @@ const Associates = () => {
   }, [])
   
   return (
-    <div className='w-full h-screen'>
+    <div className='w-full h-screen bg-slate-50'>
       <img src={AssociatesImg} className='main-bg-img' />
       <div className='main-content'>
         <div className='main-title-section'>
@@ -21,7 +21,7 @@ const Associates = () => {
           <p>
             After so many years of business, we have worked with many clients that 
             have been left nothing less than 100% satisfied as well as trusted 
-            manufactures that we do daily business with and help us deliver quality 
+            suppliers that we do daily business with and help us deliver quality 
             products to our new and recurring clients.
           </p>
         </div>
