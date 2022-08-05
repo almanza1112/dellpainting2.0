@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import ServicesImg from '../assets/Services/services_main.jpg'
+import ContactImg from '../assets/Contact/contact_main.jpg'
 
 const Contact = () => {
 
@@ -10,16 +10,16 @@ const Contact = () => {
   
   return (
     <div className='w-full h-screen'>
-      <img src={ServicesImg} className='main-bg-img' />
+      <img src={ContactImg} className='main-bg-img' />
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
-          <p className='main-title-bottom'>CONTACT</p>
+          <p className='main-title-bottom'>CONTACT INFO</p>
         </div>
 
         <div className='main-desc-section'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem id aspernatur, quibusdam accusantium repellendus officiis. Tempora ipsa itaque, dignissimos molestias at doloribus quas, id et, cumque deserunt odio! Consectetur.
+            Reach out to us by phone, email, or submit the form below and we will get back you within a business day!
           </p>
         </div>
       </div>
