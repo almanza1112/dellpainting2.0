@@ -44,7 +44,8 @@ const Footer = () => {
             <p>420 River Road</p>
             <p className='mb-4'>North Arlington, NJ 07031</p>
             <p>PHONE: (201) 998-0700</p>
-            <p>FAX: (201) 299-3776</p>
+            <p className='mb-4'>FAX: (201) 299-3776</p>
+            <p>info@dellpainting.com</p>
           </div>
         </div>
       </div>
