@@ -98,21 +98,21 @@ const AssociatesContent = () => {
                   {/* Logo section */}
                   <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
                     <div className='grid grid-cols-5 gap-16 p-8 justify-center items-center'>
-                          <img src={BenjaminMooreImg} />
-                          <img src={EykonImg} />
-                          <img src={GracoImg} />
-                          <img src={IdeaPaintImg} />
-                          <img src={KorosealImg} />
-                          <img src={MatthewsPaintImg} />
-                          <img src={MdcImg} />
-                          <img src={PPGPaintsImg} />
-                          <img src={SherwinWilliamsImg} />
-                          <img src={ScuffMasterImg} />
-                          <img src={SunBeltRentalsImg} />
-                          <img src={TkPaintingsImg} />
-                          <img src={TristateEquipmentImg} />
-                          <img src={UnitedRentalImg} />
-                          <img src={WolfGordonImg} />
+                          <img src={BenjaminMooreImg} className='assoc_logos'/>
+                          <img src={EykonImg} className='assoc_logos' />
+                          <img src={GracoImg} className='assoc_logos' />
+                          <img src={IdeaPaintImg} className='assoc_logos' />
+                          <img src={KorosealImg} className='assoc_logos' />
+                          <img src={MatthewsPaintImg} className='assoc_logos' />
+                          <img src={MdcImg} className='assoc_logos' />
+                          <img src={PPGPaintsImg} className='assoc_logos' />
+                          <img src={SherwinWilliamsImg} className='assoc_logos' />
+                          <img src={ScuffMasterImg} className='assoc_logos' />
+                          <img src={SunBeltRentalsImg} className='assoc_logos' />
+                          <img src={TkPaintingsImg} className='assoc_logos' />
+                          <img src={TristateEquipmentImg} className='assoc_logos' />
+                          <img src={UnitedRentalImg} className='assoc_logos' />
+                          <img src={WolfGordonImg} className='assoc_logos' />
                     </div>
                   </div>
                   {/* Title section */}
@@ -140,74 +140,74 @@ const AssociatesContent = () => {
                   {/* Logo section */}
                   <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
                       <div className='grid grid-cols-5 gap-16 p-8 justify-center items-center'>
-                          <img src={AMCImg} />
-                          <img src={ApplebeesImg} />
-                          <img src={ArborTerraceImg} />
-                          <img src={AtlanticHealthImg} />
-                          <img src={AtriaSeniorLivingImg} />
-                          <img src={AutozoneImg} />
-                          <img src={BJsImg} />
-                          <img src={BNYMelonImg} />
-                          <img src={BrandyWineLivingImg} />
-                          <img src={BrightViewImg} />
-                          <img src={ChickfilaImg} />
-                          <img src={ChowKingImg} />
-                          <img src={CMXImg} />
-                          <img src={CostcoImg} />
-                          <img src={CrunchFitnessImg} />
-                          <img src={CubeSmartImg} />
-                          <img src={CVSImg} />
-                          <img src={DaveAndBustersImg} />
-                          <img src={DevryUniversityImg} />
-                          <img src={EnglewoodHealthImg} />
-                          <img src={EricksonLivingImg} />
-                          <img src={EtradeImg} />
-                          <img src={ExtraSpaceStorageImg} />
-                          <img src={FiddlersImg} />
-                          <img src={FidelityImg} />
-                          <img src={FiveBelowImg} />
-                          <img src={HalalGuysImg} />
-                          <img src={HiltonImg} />
-                          <img src={HotelImg} />
-                          <img src={HouseOfImg} />
-                          <img src={InsmedImg} />
-                          <img src={JaredImg} />
-                          <img src={KayImg} />
-                          <img src={KearnyBankImg} />
-                          <img src={KohlsImg} />
-                          <img src={L3Img} />
-                          <img src={LanvinImg} />
-                          <img src={LifestanceImg} />
-                          <img src={MasonicVillagesImg} />
-                          <img src={MaxMaraImg} />
-                          <img src={MeadowLakesImg} />
-                          <img src={MercedesBenzImg} />
-                          <img src={MoesImg} />
-                          <img src={MoltonBrownImg} />
-                          <img src={MonroeVillageImg} />
-                          <img src={NovelPayImg} />
-                          <img src={NuVasiveImg} />
-                          <img src={OakStreetHealthImg} />
-                          <img src={OldNavyImg} />
-                          <img src={OshKoshImg} />
-                          <img src={PeletonImg} />
-                          <img src={PetcoImg} />
-                          <img src={PetsmartImg} />
-                          <img src={PretImg} />
-                          <img src={PTCImg} />
-                          <img src={SalvatoreImg} />
-                          <img src={ShinolaImg} />
-                          <img src={SignifyImg} />
-                          <img src={SolvayImg} />
-                          <img src={StaplesImg} />
-                          <img src={SubaruImg} />
-                          <img src={SunriseSeniorLivingImg} />
-                          <img src={TaihoImg} />
-                          <img src={TexasRoadhouseImg} />
-                          <img src={TheHabitBurgerGrillImg} />
-                          <img src={TripleFiveImg} />
-                          <img src={VermellaImg} />
-                          <img src={WalmartImg} />
+                          <img src={AMCImg} className='assoc_logos' />
+                          <img src={ApplebeesImg} className='assoc_logos' />
+                          <img src={ArborTerraceImg} className='assoc_logos' />
+                          <img src={AtlanticHealthImg} className='assoc_logos' />
+                          <img src={AtriaSeniorLivingImg} className='assoc_logos' />
+                          <img src={AutozoneImg} className='assoc_logos' />
+                          <img src={BJsImg} className='assoc_logos' />
+                          <img src={BNYMelonImg} className='assoc_logos' />
+                          <img src={BrandyWineLivingImg} className='assoc_logos' />
+                          <img src={BrightViewImg} className='assoc_logos' />
+                          <img src={ChickfilaImg} className='assoc_logos' />
+                          <img src={ChowKingImg} className='assoc_logos' />
+                          <img src={CMXImg} className='assoc_logos' />
+                          <img src={CostcoImg} className='assoc_logos' />
+                          <img src={CrunchFitnessImg} className='assoc_logos' />
+                          <img src={CubeSmartImg} className='assoc_logos' />
+                          <img src={CVSImg} className='assoc_logos' />
+                          <img src={DaveAndBustersImg} className='assoc_logos' />
+                          <img src={DevryUniversityImg} className='assoc_logos' />
+                          <img src={EnglewoodHealthImg} className='assoc_logos' />
+                          <img src={EricksonLivingImg} className='assoc_logos' />
+                          <img src={EtradeImg} className='assoc_logos' />
+                          <img src={ExtraSpaceStorageImg} className='assoc_logos' />
+                          <img src={FiddlersImg} className='assoc_logos' />
+                          <img src={FidelityImg} className='assoc_logos' />
+                          <img src={FiveBelowImg} className='assoc_logos' />
+                          <img src={HalalGuysImg} className='assoc_logos' />
+                          <img src={HiltonImg} className='assoc_logos' />
+                          <img src={HotelImg} className='assoc_logos' />
+                          <img src={HouseOfImg} className='assoc_logos' />
+                          <img src={InsmedImg} className='assoc_logos' />
+                          <img src={JaredImg} className='assoc_logos' />
+                          <img src={KayImg} className='assoc_logos' />
+                          <img src={KearnyBankImg} className='assoc_logos' />
+                          <img src={KohlsImg} className='assoc_logos' />
+                          <img src={L3Img} className='assoc_logos' />
+                          <img src={LanvinImg} className='assoc_logos' />
+                          <img src={LifestanceImg} className='assoc_logos' />
+                          <img src={MasonicVillagesImg} className='assoc_logos' />
+                          <img src={MaxMaraImg} className='assoc_logos' />
+                          <img src={MeadowLakesImg} className='assoc_logos' />
+                          <img src={MercedesBenzImg} className='assoc_logos' />
+                          <img src={MoesImg} className='assoc_logos' />
+                          <img src={MoltonBrownImg} className='assoc_logos' />
+                          <img src={MonroeVillageImg} className='assoc_logos' />
+                          <img src={NovelPayImg} className='assoc_logos' />
+                          <img src={NuVasiveImg} className='assoc_logos' />
+                          <img src={OakStreetHealthImg} className='assoc_logos' />
+                          <img src={OldNavyImg} className='assoc_logos' />
+                          <img src={OshKoshImg} className='assoc_logos' />
+                          <img src={PeletonImg} className='assoc_logos' />
+                          <img src={PetcoImg} className='assoc_logos' />
+                          <img src={PetsmartImg} className='assoc_logos' />
+                          <img src={PretImg} className='assoc_logos' />
+                          <img src={PTCImg} className='assoc_logos' />
+                          <img src={SalvatoreImg} className='assoc_logos' />
+                          <img src={ShinolaImg} className='assoc_logos' />
+                          <img src={SignifyImg} className='assoc_logos' />
+                          <img src={SolvayImg} className='assoc_logos' />
+                          <img src={StaplesImg} className='assoc_logos' />
+                          <img src={SubaruImg} className='assoc_logos' />
+                          <img src={SunriseSeniorLivingImg} className='assoc_logos' />
+                          <img src={TaihoImg} className='assoc_logos' />
+                          <img src={TexasRoadhouseImg} className='assoc_logos' />
+                          <img src={TheHabitBurgerGrillImg} className='assoc_logos' />
+                          <img src={TripleFiveImg} className='assoc_logos' />
+                          <img src={VermellaImg} className='assoc_logos' />
+                          <img src={WalmartImg} className='assoc_logos' />
                       </div>
                   </div>
               </div>

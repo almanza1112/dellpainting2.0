@@ -177,6 +177,11 @@
         @apply justify-center;
     }
 
+    /* Associates Section */
+    .assoc_logos {
+        @apply md:hover:scale-150 duration-200;
+    }
+
     /* Footer Section */
     .fss-container {
         @apply flex flex-col;
