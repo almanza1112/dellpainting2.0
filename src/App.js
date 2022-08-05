@@ -21,6 +21,7 @@ import Skim from './components/Services/Skim'
 import Walltalkers from './components/Services/Walltalkers'
 import CareersContent from "./components/Careers/CareersContent"
 import ContactContent from "./components/Contact/ContactContent"
+import AssociatesContent from "./components/Associates/AssociatesContent"
 
 
 function App() {
@@ -43,7 +44,7 @@ function App() {
         </Route>
         <Route path="/portfolio" element={<><Portfolio /> <PortfolioContent/><Footer /></>} />
         <Route path="/careers" element={<><Careers /> <CareersContent/> <Footer /></>} />
-        <Route path="/associates" element={<><Associates /> <Footer /></>} />
+        <Route path="/associates" element={<><Associates /> <AssociatesContent/> <Footer /></>} />
         <Route path="/contact" element={<><Contact /> <ContactContent/> <Footer /></>} />
       </Routes>
     </div>
