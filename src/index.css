@@ -128,6 +128,26 @@
         @apply h-[350px];
     }
 
+    /* Home Section */
+    /* hi = home item */
+    .hi {
+        @apply p-4;
+        @apply flex flex-col;
+        @apply justify-center items-center;
+    }
+
+    .hi-title {
+        @apply font-semibold text-sm uppercase;
+        @apply pt-4 sm:pt-10 pb-2;
+    }
+
+    .hi-list {
+        @apply marker:text-red-600;
+        @apply list-outside list-disc;
+        @apply ml-6;
+        @apply leading-8;
+    }
+
     /* Services sub-sections */
     .sss-style {
         @apply w-full;

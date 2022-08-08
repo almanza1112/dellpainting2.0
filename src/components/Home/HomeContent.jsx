@@ -31,7 +31,7 @@ const HomeContent = () => {
     <div className='w-full bg-slate-50'>
       <div className='max-w-screen-xl w-full h-full flex flex-col mx-auto'>
         {/* About Dell Painting section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 p-4 md:px-8 md:divide-x py-4 md:py-32'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
           <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
@@ -60,7 +60,7 @@ const HomeContent = () => {
         </div>
 
         {/* Where We Operate section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 p-4 md:px-8 md:divide-x py-4 md:py-16'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-16'>
           {/* title section */}
           <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
             <div className='max-w-[700px]'>
@@ -79,7 +79,7 @@ const HomeContent = () => {
         </div>
 
         {/* What Separates Us section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 p-4 md:px-8 md:divide-x py-4 md:py-32'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
           <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
@@ -91,38 +91,45 @@ const HomeContent = () => {
           </div>
           {/* description section */}
           <div className='col-span-1 md:col-span-2 lg:col-span-3 grid md:grid-cols-2 md:pl-8 gap-8 md:gap-16'>
-            <div className='p-4 flex flex-col justify-center items-center'>
+
+            {/* Item */}
+            <div className='hi'>
               <FaAward size={40} color='#DC2626'/>
-              <p className='text-xl pt-4 sm:pt-10 pb-2 uppercase'>Quality</p>
-              <ul className='marker:text-red-600 list-outside list-disc ml-6 leading-8'>
+              <p className='hi-title'>Quality</p>
+              <ul className='hi-list'>
                 <li>100% satisfaction guaranteed</li>
                 <li>We only use the best products</li>
                 <li>Professional tools for optimal results</li>
               </ul>
             </div>
-            <div className='p-4 flex flex-col justify-center items-center'>
+
+            {/* Item */}
+            <div className='hi'>
               <FaThumbsUp size={40} color='#DC2626'/>
-              <p className='text-xl pt-4 sm:pt-10 pb-2 uppercase'>Customer Satisfaction</p>
-              <ul className='marker:text-red-600 list-outside list-disc ml-6 leading-8'>
+              <p className='hi-title'>Customer Satisfaction</p>
+              <ul className='hi-list'>
                 <li>Always meet project deadlines</li>
                 <li>Consistent high standard results</li>
                 <li>Regulary exceed job requirements</li>
               </ul>
             </div>
-           
-            <div className='p-4 flex flex-col justify-center items-center'>
+
+            {/* Item */}
+            <div className='hi'>
               <MdOutlineFamilyRestroom size={40} color='#DC2626' />
-              <p className='text-xl pt-4 sm:pt-10 pb-2 uppercase'>Family Owned</p>
-              <ul className='marker:text-red-600 list-outside list-disc ml-6 leading-8'>
+              <p className='hi-title'>Family Owned</p>
+              <ul className='hi-list'>
                 <li>We treat you like family</li>
                 <li>Hardworking and experienced</li>
                 <li>First class results</li>
               </ul>
             </div>
-            <div className='p-4 flex flex-col justify-center items-center'>
+
+            {/* Item */}
+            <div className='hi'>
               <AiFillSafetyCertificate size={40} color='#DC2626' />
-              <p className='text-xl pt-4 sm:pt-10 pb-2 uppercase'>Safety</p>
-              <ul className='marker:text-red-600 list-outside list-disc ml-6 leading-8'>
+              <p className='hi-title'>Safety</p>
+              <ul className='hi-list'>
                 <li>We are OSHA certified</li>
                 <li>Advocates Toolbox Talks</li>
                 <li>Personal Protective Equipment</li>
