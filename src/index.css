@@ -182,14 +182,52 @@
         @apply md:hover:scale-150 duration-200;
     }
 
+    /* Contact Section */
+    /* contact info = ci */
+    .ci-item {
+        @apply flex flex-col;
+        @apply justify-start items-start;
+    }
+
+    .ci-title {
+        @apply font-semibold text-sm;
+        @apply uppercase;
+        @apply mb-2 md:mb-4;
+    }
+    
+    .form-field {
+        @apply mb-4;
+        @apply p-2;
+        @apply bg-white;
+        @apply border border-gray-300;
+    }
+
     /* Footer Section */
     .fss-container {
         @apply flex flex-col;
     }
 
     .fss-title {
-        @apply text-gray-400;
-        @apply mb-4 md:mb-8;
+        @apply text-gray-500;
+        @apply mb-2 md:mb-4;
+        @apply text-sm font-semibold;
         @apply uppercase;
+    }
+
+    /* Buttons */
+    .flat-btn-home {
+        @apply border-2 border-white;
+        @apply font-semibold text-white;
+        @apply p-3;
+        @apply hover:bg-red-600 hover:border-red-600 hover:text-gray-200; 
+        @apply drop-shadow-xl;
+    }
+
+    .flat-btn {
+        @apply border-2 border-white;
+        @apply font-semibold text-gray-200;             
+        @apply p-3;
+        @apply bg-red-600 border-red-600;
+        @apply drop-shadow-xl;
     }
 }
