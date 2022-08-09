@@ -12,7 +12,7 @@ import FRPPanelsThmb from '../../assets/Services/frp_panels_thmb.jpg'
 
 const ServicesContent = () => {
     return (
-        <div className='w-full flex flex-col p-4 md:px-8 md:py-16 bg-slate-50'>
+        <div className='w-full flex flex-col p-4 md:px-8 md:pb-16 bg-slate-50'>
             <div className='max-w-screen-xl w-full h-full mx-auto'>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16'>

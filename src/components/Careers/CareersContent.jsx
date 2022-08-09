@@ -10,7 +10,7 @@ const CareersContent = () => {
   return (
     <div className='w-full bg-slate-50'>
       <div className='max-w-screen-xl w-full h-full mx-auto'>
-        <div className='flex flex-col p-4 md:px-8 md:py-8 w-full gap-16'>
+        <div className='flex flex-col p-4 md:px-8 md:pb-16 w-full gap-16'>
             <div className='grid sm:grid-cols-2 gap-8 md:gap-32'>
               {/* New Jersey section  */}
               <div className='cari'>

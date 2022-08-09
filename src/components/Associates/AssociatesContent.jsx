@@ -94,7 +94,7 @@ const AssociatesContent = () => {
     <div className='w-full bg-slate-50'>
         <div className='max-w-screen-xl w-full h-full flex flex-col mx-auto'>
               {/* Suppliers section */}
-              <div className='grid md:grid-cols-3 lg:grid-cols-4 p-4 md:px-8 md:divide-x py-4 md:py-16'>
+              <div className='grid md:grid-cols-3 lg:grid-cols-4 p-4 md:px-8 md:divide-x md:pb-16 md:pt-12'>
                   {/* Logo section */}
                   <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
                     <div className='grid grid-cols-5 gap-16 p-8 justify-center items-center'>

@@ -9,8 +9,8 @@ const ContactContent = () => {
 
   return (
     <div className='w-full bg-slate-50'>
-      <div className='max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center py-8'>
-        <div className='grid md:grid-cols-2 gap-8 md:gap-16 p-4 md:px-8 w-full'>
+      <div className='max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center'>
+        <div className='grid md:grid-cols-2 gap-8 md:gap-16 p-4 md:px-8 w-full md:mt-8'>
 
           {/* Information */}
           <div className='grid sm:grid-cols-2 gap-8'>
@@ -64,7 +64,7 @@ const ContactContent = () => {
             </div>
           </form>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d428.2604638006314!2d-74.13694196526164!3d40.79888296866908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c255e863c7b6bf%3A0xee9f2284f5ba4790!2s420%20River%20Rd%2C%20North%20Arlington%2C%20NJ%2007031!5e0!3m2!1sen!2sus!4v1589060192333!5m2!1sen!2sus" className='p-4 md:px-8 py-4 md:my-16' width="100%" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>           
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d428.2604638006314!2d-74.13694196526164!3d40.79888296866908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c255e863c7b6bf%3A0xee9f2284f5ba4790!2s420%20River%20Rd%2C%20North%20Arlington%2C%20NJ%2007031!5e0!3m2!1sen!2sus!4v1589060192333!5m2!1sen!2sus" className='p-4 md:px-8 py-4 md:my-8' width="100%" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>           
 
       </div>
       
