@@ -211,6 +211,7 @@
     .cari-job {
         @apply flex flex-col;
         @apply border border-gray-400;
+        @apply bg-red-50;
         @apply p-4;
     }
 
