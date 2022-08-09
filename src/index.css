@@ -197,6 +197,46 @@
         @apply justify-center;
     }
 
+    /* Careers Section */
+    /* cari = Careers item */
+    .cari {
+        @apply flex flex-col gap-4;
+    }
+
+    .cari-title {
+        @apply font-semibold text-sm uppercase;
+        @apply mb-2 md:mb-4;
+    }
+
+    .cari-job {
+        @apply flex flex-col;
+        @apply border border-gray-400;
+        @apply p-4;
+    }
+
+    .cari-job-title-wrapper{
+        @apply flex;
+        @apply justify-center;
+    }
+
+    .cari-job-title {
+        @apply uppercase;
+        @apply w-fit;
+        @apply border-b-2 border-red-600;
+        @apply mb-4;
+    }
+
+    .cari-job-list {
+        @apply marker:text-red-600;
+        @apply list-inside list-[circle];
+    }
+
+    .form-label-title {
+        @apply text-sm uppercase font-semibold;
+        @apply block;
+        @apply mb-3;
+    }
+
     /* Associates Section */
     .assoc_logos {
         @apply md:hover:scale-150 duration-200;
@@ -216,6 +256,7 @@
     }
     
     .form-field {
+        @apply w-full;
         @apply mb-4;
         @apply p-2;
         @apply bg-white;
