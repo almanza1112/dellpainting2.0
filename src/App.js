@@ -4,6 +4,17 @@ import Services from './pages/Services'
 import ServicesContent from './components/Services/ServicesContent'
 import Portfolio from './pages/Portfolio'
 import PortfolioContent from "./components/Portfolio/PortfolioContent"
+import Apartments from './components/Portfolio/Apartments'
+import SeniorLivings from './components/Portfolio/SeniorLivings'
+import RetailStores from './components/Portfolio/RetailStores'
+import Hotels from './components/Portfolio/Hotels'
+import Entertainment from './components/Portfolio/Entertainment'
+import Restaurants from './components/Portfolio/Restaurants'
+import Banks from './components/Portfolio/Banks'
+import Offices from './components/Portfolio/Offices'
+import CarDealerships from './components/Portfolio/CarDealership'
+import SelfStorage from './components/Portfolio/SelfStorage'
+
 import Careers from './pages/Careers'
 import Associates from './pages/Associates'
 import Contact from './pages/Contact'
@@ -42,7 +53,19 @@ function App() {
           <Route path='skim' element={<><Skim /> <Footer /></>} />
           <Route path='walltalkers' element={<><Walltalkers /> <Footer /></>} />
         </Route>
-        <Route path="/portfolio" element={<><Portfolio /> <PortfolioContent/><Footer /></>} />
+        <Route path="/portfolio" element={<Portfolio />} >
+          <Route path="" element={<><PortfolioContent /> <Footer /></>}/>
+          <Route path="apartments" element={<><Apartments /> <Footer /></>} />
+          <Route path="seniorlivings" element={<><SeniorLivings/> <Footer /></>} />
+          <Route path="retailstores" element={<><RetailStores /> <Footer /></>} />
+          <Route path="hotels" element={<><Hotels /> <Footer /></>} />
+          <Route path="entertainment" element={<><Entertainment /> <Footer /></>} />
+          <Route path="restaurants" element={<><Restaurants /> <Footer /></>} />
+          <Route path="banks" element={<><Banks /> <Footer /></>} />
+          <Route path="offices" element={<><Offices /> <Footer /></>} />
+          <Route path="cardealerships" element={<><CarDealerships /> <Footer /></>} />
+          <Route path="selfstorage" element={<><SelfStorage /> <Footer /></>} />
+        </Route>
         <Route path="/careers" element={<><Careers /> <CareersContent/> <Footer /></>} />
         <Route path="/associates" element={<><Associates /> <AssociatesContent/> <Footer /></>} />
         <Route path="/contact" element={<><Contact /> <ContactContent/> <Footer /></>} />

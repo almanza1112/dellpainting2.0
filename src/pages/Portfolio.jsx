@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react'
+import { Outlet } from 'react-router-dom'
 import PortfolioImg from '../assets/Portfolio/portfolio_main.jpg'
 
 
@@ -25,6 +26,7 @@ const Portfolio = () => {
           </p>
         </div>
       </div>
+      <Outlet />
     </div>
     )
 }
