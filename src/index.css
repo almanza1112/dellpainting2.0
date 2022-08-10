@@ -17,8 +17,8 @@
     }
 
     nav li:hover {
-        @apply -translate-y-1;
-        @apply scale-110;
+        @apply md:-translate-y-1;
+        @apply md:scale-110;
     }
 
     video {
@@ -151,7 +151,6 @@
     /* Services sub-sections */
     .sss-style {
         @apply w-full;
-        @apply md:h-screen;
         @apply bg-slate-50;
     }
 
@@ -159,7 +158,7 @@
         @apply max-w-screen-xl; 
         @apply w-full h-full;
         @apply mx-auto;
-        @apply p-4 md:px-8 py-4 md:py-16;
+        @apply p-4 md:px-8 pb-8 md:pb-16;
         @apply flex flex-col;
         @apply justify-center;
     }
@@ -177,8 +176,8 @@
     }
 
     .sss-content {
-        @apply grid grid-cols-2;
-        @apply gap-4 md:gap-16;
+        @apply grid sm:grid-cols-2;
+        @apply gap-8 md:gap-16;
     }
 
     .sss-text {

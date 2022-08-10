@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { VscClose } from 'react-icons/vsc'
 import Img1 from '../../assets/Portfolio/Apartments/carraway_apartments/ca1.jpeg'
 import Img2 from '../../assets/Portfolio/Apartments/carraway_apartments/ca2.jpeg'
@@ -49,8 +49,15 @@ const Apartments = () => {
     setModel(true);
   }
 
+  const myRef = useRef()
+  const executeScroll = () => myRef.current.scrollIntoView();
+  // Makes sure page starts on top of section when rendered
+  useEffect(() => {
+    executeScroll()
+  }, [])
+
   return (
-    <div className='w-full bg-slate-50'>
+    <div ref={myRef} className='w-full bg-slate-50'>
       <div className='max-w-screen-xl mx-auto px-4 py-8 md:px-8 md:pb-16'>
         <div className={model ? 'model open' : 'model'}>
           <img src={tempImgSrc} />

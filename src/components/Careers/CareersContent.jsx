@@ -100,11 +100,11 @@ const CareersContent = () => {
             {/* Name input */}
             <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
               <div>
-                <label className='form-label-title' for='firstName'>First Name</label>
+                <label className='form-label-title' htmlFor='firstName'>First Name</label>
                 <input className='form-field w-full' type="text" placeholder='John' name='firstName' id='firstName' required={true} />
               </div>
              <div>
-                <label className='form-label-title' for='lastName'>Last Name</label>
+                <label className='form-label-title' htmlFor='lastName'>Last Name</label>
                 <input className='form-field w-full' type="text" placeholder='Doe' name='lastName' id='lastName' required={true} />
              </div>
             </div>
@@ -112,12 +112,12 @@ const CareersContent = () => {
             {/* Email + phone input */}
             <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
               <div>
-                <label className='form-label-title' for='firstName'>Email</label>
+                <label className='form-label-title' htmlFor='firstName'>Email</label>
                 <input className='form-field w-full' type="email" placeholder='*****@example.com' name='email' id='email' required={true} />
               </div>
 
               <div>                
-                <label className='form-label-title' for='phone'>Phone</label>
+                <label className='form-label-title' htmlFor='phone'>Phone</label>
                 <input className='form-field' type="text" placeholder='(201) 555-5555' name='phone' required={true}/>
               </div>
             </div>
@@ -125,7 +125,7 @@ const CareersContent = () => {
             {/* Location + Position selector */}
             <div className='grid md:grid-cols-2 gap-4 md:gap-8'>
               <div>
-                <label className='form-label-title' for='location'>Location</label>
+                <label className='form-label-title' htmlFor='location'>Location</label>
                 <select className='form-field' id='location'>
                   <option>New Jersey</option>
                   <option>Florida</option>=
@@ -133,7 +133,7 @@ const CareersContent = () => {
               </div>
 
               <div>
-                <label className='form-label-title' for='position'>Position</label>
+                <label className='form-label-title' htmlFor='position'>Position</label>
                 <select className='form-field' id='position'>
                   <option>Painter</option>
                   <option>Estimator</option>
@@ -144,12 +144,12 @@ const CareersContent = () => {
             </div>
             
             <div>
-              <label className='form-label-title' for='upload'>Upload Resume</label>
+              <label className='form-label-title' htmlFor='upload'>Upload Resume</label>
               <input className='form-field' name='upload' id='upload' type='file'/>
             </div>
 
             <div>
-              <label className='form-label-title' for='skills'>Skills</label>
+              <label className='form-label-title' htmlFor='skills'>Skills</label>
               <textarea className='form-field' name="skills" rows="5" placeholder='Please write any experince or skills' required={true}></textarea>
             </div>
 
@@ -158,10 +158,6 @@ const CareersContent = () => {
             </div>
           </form>   
         </div>
-
-       
-
-
       </div>
     </div>
   )

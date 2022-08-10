@@ -42,13 +42,13 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu */}
-            <ul className={nav ? 'absolute top-0 right-0 pt-[80px] w-full h-screen bg-slate-50 duration-500 border-l-8 border-black z-10' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
-                <CustomLink onClick={nav === true} to='/'>HOME</CustomLink>
-                <CustomLink onClick={nav === true} to='/services'>SERVICES</CustomLink>
-                <CustomLink onClick={nav === true} to='/portfolio'>PORTFOLIO</CustomLink>
-                <CustomLink onClick={nav === true} to='/careers'>CAREERS</CustomLink>
-                <CustomLink onClick={nav === true} to='/associates'>ASSOCIATES</CustomLink>
-                <CustomLink onClick={nav === true} to='/contact'>CONTACT</CustomLink>
+            <ul className={nav ? 'absolute top-[80px] right-0 w-full h-screen bg-slate-50 duration-500 border-l-8 border-black z-10' : 'absolute right-[-100%] pt-4 h-screen w-full '}>
+                <CustomLink onClick={() => setNav(!nav)} to='/'>HOME</CustomLink>
+                <CustomLink onClick={() => setNav(!nav)} to='/services'>SERVICES</CustomLink>
+                <CustomLink onClick={() => setNav(!nav)} to='/portfolio'>PORTFOLIO</CustomLink>
+                <CustomLink onClick={() => setNav(!nav)} to='/careers'>CAREERS</CustomLink>
+                <CustomLink onClick={() => setNav(!nav)} to='/associates'>ASSOCIATES</CustomLink>
+                <CustomLink onClick={() => setNav(!nav)} to='/contact'>CONTACT</CustomLink>
             </ul>
         </nav >
     )
@@ -56,10 +56,10 @@ const Navbar = () => {
 
 function CustomLink({ to, children, ...props }) {
     const resolvesPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvesPath.pathname, end: true })
+    const isActive = useMatch({ path: resolvesPath.pathname, end: true})
     return (
         <li >
-            <Link to={to} {...props} className={isActive ? 'border-b-4 border-red-600 pb-1' : ''}>{children}</Link>
+            <Link to={to} {...props} className={isActive ? 'border-b-4 border-red-600 pb-1' : 'py-4'}>{children}</Link>
         </li>
     )
 }
