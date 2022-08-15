@@ -110,8 +110,9 @@
 
     .card-title {   
         @apply uppercase;
+        @apply text-lg font-normal;
         @apply bg-gray-200;
-        @apply w-full p-4;
+        @apply w-full p-3;
         @apply justify-start flex;
     }
 
@@ -153,6 +154,7 @@
     .sss-style {
         @apply w-full;
         @apply bg-slate-50;
+        @apply scroll-m-20;
     }
 
     .sss-container{
@@ -173,7 +175,7 @@
     }
 
     .sss-back-text {
-        @apply text-gray-500;
+        @apply text-gray-500 text-sm;
     }
 
     .sss-content {
@@ -188,7 +190,7 @@
 
     .sss-title{
         @apply text-2xl;
-        @apply uppercase;;
+        @apply font-normal;
         @apply py-4 md:py-8;
     }
 

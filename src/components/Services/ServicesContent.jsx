@@ -19,63 +19,63 @@ const ServicesContent = () => {
                     {/* Item */}
                     <Link to={'maintenance'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MaintenanceThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>MAINTENANCE</span>
+                            <span className='card-title'>Maintenance</span>
                         </div>
                     </Link>
 
                     {/* Item */}
                     <Link to={'newconstruction'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${NewConstructiong})` }} className='card services-card-img'>
-                            <span className='card-title'>NEW CONSTRUCTION</span>
+                            <span className='card-title'>New Construction</span>
                         </div>
                     </Link>
     
                     {/* Item */}
                     <Link to={'wallcovering'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${WallcoveringThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>WALLCOVERING </span>
+                            <span className='card-title'>Wallcovering </span>
                         </div>
                     </Link>
                     
                     {/* Item */}
                     <Link to={'speciality'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${SpecialityThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>SPECIALITY FINISHES</span>
+                            <span className='card-title'>Speciality Finishes</span>
                         </div>
                     </Link>
                    
                     {/* Item */}
                     <Link to={'frppanels'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${FRPPanelsThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>FRP PANELS </span>
+                            <span className='card-title'>FRP Panels </span>
                         </div>
                     </Link>
                     
                     {/* Item */}
                     <Link to={'spackle'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${SpackleThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>SPACKLE </span>
+                            <span className='card-title'>Spackle </span>
                         </div>
                     </Link>
                     
                     {/* Item */}
                     <Link to={'minwax'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${MinwaxThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>MINWAX STAINING </span>
+                            <span className='card-title'>Minwax Staining</span>
                         </div>
                     </Link>
                     
                     {/* Item */}
                     <Link to={'skim'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${SkimThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>SKIM COATING/LEVEL 5 FINISH </span>
+                            <span className='card-title'>Skim Coating / Level 5 Finish</span>
                         </div>
                     </Link>
                     
                     {/* Item */}
                     <Link to={'walltalkers'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${WalltalkersThmb})` }} className='card services-card-img'>
-                            <span className='card-title'>WALLTALKERS </span>
+                            <span className='card-title'>Walltalkers</span>
                         </div>
                     </Link>
                     
