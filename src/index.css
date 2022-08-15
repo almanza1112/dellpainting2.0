@@ -143,9 +143,11 @@
 
     .hi-list {
         @apply marker:text-red-600;
-        @apply list-outside list-disc;
+        @apply list-outside list-none;
+        @apply divide-y divide-red-600;
         @apply ml-6;
-        @apply leading-8;
+        @apply leading-10;
+        @apply text-center;
     }
 
     /* Services sub-sections */
