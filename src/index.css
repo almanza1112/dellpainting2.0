@@ -30,6 +30,7 @@
     body {
         @apply font-light;
         @apply text-gray-700;
+        @apply subpixel-antialiased;
     }
 
 }
@@ -234,32 +235,62 @@
     }
 
     .cari-title {
-        @apply font-semibold text-sm uppercase;
+        @apply font-normal text-2xl self-center;
         @apply mb-2 md:mb-4;
     }
 
     .cari-job {
+        @apply p-5;
         @apply flex flex-col;
-        @apply border border-gray-400;
-        @apply bg-red-50;
-        @apply p-4;
+        @apply border border-gray-200;
+        @apply bg-white;
+        @apply rounded-md;
     }
 
-    .cari-job-title-wrapper{
-        @apply flex;
-        @apply justify-center;
+    /* hs = hour + salary */
+    .cari-job-hs-wrapper {
+        @apply inline-flex;
+        @apply items-center justify-between;
+        @apply mb-5;
+    }
+
+    .cari-job-hourly {
+        @apply rounded-2xl;
+        @apply bg-yellow-500;
+        @apply w-fit; 
+        @apply py-1 px-2;
+        @apply text-xs text-white font-bold;
+    }
+
+    .cari-job-part-time {
+        @apply rounded-2xl;
+        @apply bg-lime-500;
+        @apply w-fit; 
+        @apply py-1 px-2;
+        @apply text-xs text-white font-bold;
+    }
+
+    .cari-job-full-time {
+        @apply rounded-2xl;
+        @apply bg-blue-500;
+        @apply w-fit; 
+        @apply py-1 px-2;
+        @apply text-xs text-white font-bold;
+    }
+
+    .cari-job-salary {
+        @apply font-normal;
+        @apply text-black;
     }
 
     .cari-job-title {
-        @apply uppercase;
-        @apply w-fit;
-        @apply border-b-2 border-red-600;
-        @apply mb-4;
+        @apply self-center;
+        @apply text-black text-lg font-medium;
     }
 
-    .cari-job-list {
-        @apply marker:text-red-600;
-        @apply list-inside list-[circle];
+    .cari-job-desc {
+        @apply mt-5;
+        @apply text-sm;
     }
 
     .form-label-title {
