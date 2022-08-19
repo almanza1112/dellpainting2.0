@@ -24,6 +24,9 @@ const HomeContent = () => {
       },
       "FL": {
         fill: "#CC0000"
+      },
+      "CT": {
+        fill: "#CC0000"
       }
     };
   };
@@ -32,7 +35,7 @@ const HomeContent = () => {
     <div className='w-full bg-slate-50'>
       <div className='max-w-screen-xl w-full h-full flex flex-col mx-auto'>
         {/* About Dell Painting section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-32'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-12 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
           <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
@@ -61,11 +64,11 @@ const HomeContent = () => {
         </div>
 
         {/* Where We Operate section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-16'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-12 md:px-8 md:divide-x md:py-16'>
           {/* title section */}
           <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
-            <div className='max-w-[700px]'>
-              <UsaMap customize={statesCustomConfig()} width="100%" title="Map of Operation for Dell Painting" />
+            <div className='max-w-[700px] h-80 mt-8 md:mt-0'>
+              <UsaMap customize={statesCustomConfig()} width="100%" height='auto' title="Map of Operation for Dell Painting" />
             </div>
           </div>
           {/* description section */}
@@ -80,7 +83,7 @@ const HomeContent = () => {
         </div>
 
         {/* What Separates Us section */}
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-32'>
+        <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-12 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
           <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
