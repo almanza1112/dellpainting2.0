@@ -66,32 +66,33 @@
         @apply w-full;
         @apply md:h-[30vh];
         @apply bottom-0;
-        @apply grid md:grid-cols-3 lg:grid-cols-4;
+        @apply flex flex-col md:flex-row;
         @apply p-4 md:px-8 py-4 md:py-16;
         @apply mx-auto;
         @apply md:divide-x;
     }
 
     .main-title-section {
-        @apply flex flex-row sm:flex-col;
+        @apply md:w-2/5 lg:w-1/3 xl:w-1/4;
+        @apply flex flex-col;
         @apply justify-center items-center md:items-start;
+        @apply text-center md:text-left;
     }
 
     .main-title-top {
         @apply text-red-600;
-        @apply text-xl md:text-3xl;
+        @apply text-xl md:text-2xl;
         @apply md:pb-4 pr-2 sm:pr-0;
-        @apply font-light;
     }
 
     .main-title-bottom {
         @apply text-black;
-        @apply text-3xl md:text-5xl;
+        @apply text-3xl md:text-4xl;
         @apply font-extralight;
     }
 
     .main-desc-section {
-        @apply col-span-1 md:col-span-2 lg:col-span-3;
+        @apply md:w-3/5 lg:w-2/3 xl:w-3/4;
         @apply flex flex-col;
         @apply justify-center;
         @apply items-start;

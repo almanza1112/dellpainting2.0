@@ -64,7 +64,7 @@ const SeniorLivings = () => {
 
         <div className='main-desc-section'>
           <p>
-            Something about senior livings will go here
+            Something about senior livings will go here Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora vel placeat cumque eum incidunt pariatur, odit quae nemo unde laboriosam, laudantium facilis sed inventore adipisci tempore natus provident. Esse, architecto.
           </p>
         </div>
       </div>
