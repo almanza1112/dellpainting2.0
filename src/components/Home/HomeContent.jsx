@@ -14,19 +14,19 @@ const HomeContent = () => {
   let statesCustomConfig = () => {
     return {
       "NJ": {
-        fill: "#CC0000",
+        fill: "#DC2626",
       },
       "NY": {
-        fill: "#CC0000"
+        fill: "#DC2626"
       },
       "PA": {
-        fill: "#CC0000"
+        fill: "#DC2626"
       },
       "FL": {
-        fill: "#CC0000"
+        fill: "#DC2626"
       },
       "CT": {
-        fill: "#CC0000"
+        fill: "#DC2626"
       }
     };
   };
