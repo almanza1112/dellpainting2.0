@@ -96,44 +96,24 @@ const HomeContent = () => {
             <div className='hi'>
               <FaAward size={40} color='#DC2626'/>
               <p className='hi-title'>Quality</p>
-              <ul className='hi-list'>
-                <li>100% satisfaction guaranteed</li>
-                <li>We only use the best products</li>
-                <li>Professional tools for optimal results</li>
-              </ul>
             </div>
 
             {/* Item */}
             <div className='hi'>
               <FaThumbsUp size={40} color='#DC2626'/>
               <p className='hi-title'>Customer Satisfaction</p>
-              <ul className='hi-list'>
-                <li>Always meet project deadlines</li>
-                <li>Consistent high standard results</li>
-                <li>Regulary exceed job requirements</li>
-              </ul>
             </div>
 
             {/* Item */}
             <div className='hi'>
               <MdOutlineFamilyRestroom size={40} color='#DC2626' />
               <p className='hi-title'>Family Owned</p>
-              <ul className='hi-list'>
-                <li>We treat you like family</li>
-                <li>Hardworking and experienced</li>
-                <li>First class results</li>
-              </ul>
             </div>
 
             {/* Item */}
             <div className='hi'>
               <AiFillSafetyCertificate size={40} color='#DC2626' />
               <p className='hi-title'>Safety</p>
-              <ul className='hi-list'>
-                <li>We are OSHA certified</li>
-                <li>Advocates Toolbox Talks</li>
-                <li>Personal Protective Equipment</li>
-              </ul>
             </div>
           </div>
         </div>
