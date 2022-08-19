@@ -110,7 +110,7 @@
 
     .card-title {   
         @apply uppercase;
-        @apply text-lg font-normal;
+        @apply text-base;
         @apply bg-gray-200;
         @apply w-full p-3;
         @apply justify-start flex;
