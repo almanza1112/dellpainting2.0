@@ -28,7 +28,7 @@ const ContactContent = () => {
             {/* Item */}
             <div className='ci-item'>
               <p className='ci-title'>Email</p>
-              <p>info@dellpainting.com</p>
+              <p>admin@dellpainting.com</p>
             </div>
             {/* Item */}
             <div className='ci-item'>

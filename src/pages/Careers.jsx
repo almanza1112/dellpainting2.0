@@ -24,7 +24,7 @@ const Careers = () => {
             environment is a friendly and a strong team player company where we all work together 
             to achieve Dell Painting's goals. Anyone interested in any of our available  positions
             are welcome to fill out the form below or submit your resume to 
-            <span className='font-bold'> info@dellpainting.com</span>.
+            <span className='font-bold'> admin@dellpainting.com</span>.
           </p>
         </div>
       </div>
