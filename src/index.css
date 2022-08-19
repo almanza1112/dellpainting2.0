@@ -13,7 +13,7 @@
 
     nav li.active {
         @apply border-b-2;
-        @apply border-red-700;
+        @apply border-red-600;
     }
 
     nav li:hover {
@@ -229,11 +229,6 @@
         @apply flex flex-col gap-4;
     }
 
-    .cari-title {
-        @apply font-normal text-2xl self-center;
-        @apply mb-2 md:mb-4;
-    }
-
     .cari-job {
         @apply p-5;
         @apply flex flex-col;
@@ -273,9 +268,10 @@
         @apply text-xs text-white font-bold;
     }
 
-    .cari-job-salary {
-        @apply font-normal;
-        @apply text-black;
+    .cari-job-location {
+        @apply inline-flex items-center;
+        @apply font-normal uppercase text-xs;
+        @apply text-gray-500;
     }
 
     .cari-job-title {
@@ -284,8 +280,13 @@
     }
 
     .cari-job-desc {
-        @apply mt-5;
+        @apply my-5;
         @apply text-sm;
+    }
+
+    .cari-job-apply {
+        @apply self-center;
+        @apply text-sm hover:text-red-600 cursor-pointer uppercase font-normal;
     }
 
     .form-label-title {

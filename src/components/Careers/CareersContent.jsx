@@ -1,6 +1,8 @@
 import React, {useState } from 'react'
+import { Link } from 'react-scroll'
 import { ImSpinner2 } from 'react-icons/im'
 import { FaCheck } from 'react-icons/fa'
+import { MdLocationOn } from 'react-icons/md'
 
 const CareersContent = () => {
 
@@ -18,79 +20,84 @@ const CareersContent = () => {
             <div className='col-span-1 md:col-span-2 lg:col-span-3 grid sm:grid-cols-2 gap-16 lg:gap-24'>
               {/* New Jersey section  */}
               <div className='cari'>
-                <p className='cari-title'>New Jersey</p>
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-hourly'>hourly</div>
-                    <p className='cari-job-salary'>$25/hr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />New Jersey</p>
                   </div>
                   <p className='cari-job-title'>Painter</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-full-time'>full-time</div>
-                    <p className='cari-job-salary'>$40k/yr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />New Jersey</p>
                   </div>
                   <p className='cari-job-title'>Secretary</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-full-time'>full-time</div>
-                    <p className='cari-job-salary'>$60k/yr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />New Jersey</p>
                   </div>
                   <p className='cari-job-title'>Estimator</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
               </div>
 
               {/* Florida Section */}
               <div className='cari'>
-                <p className='cari-title'>Florida</p>
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-hourly'>hourly</div>
-                    <p className='cari-job-salary'>$25/hr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />Florida</p>
                   </div>
                   <p className='cari-job-title'>Painter</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-part-time'>part-time</div>
-                    <p className='cari-job-salary'>$20/hr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />Florida</p>
                   </div>
                   <p className='cari-job-title'>Secretary</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-full-time'>full-time</div>
-                    <p className='cari-job-salary'>$50k/yr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />Florida</p>
                   </div>
                   <p className='cari-job-title'>Office Admin</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
                 {/* Item */}
                 <div className='cari-job'>
                   <div className='cari-job-hs-wrapper'>
                     <div className='cari-job-full-time'>full-time</div>
-                    <p className='cari-job-salary'>$70k/yr</p>
+                    <p className='cari-job-location'><MdLocationOn size={14} color='#666699' />Florida</p>
                   </div>
                   <p className='cari-job-title'>Project Manager</p>
                   <p className='cari-job-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quas minima, ducimus debitis rem modi illum fugit tenetur iste?</p>
+                  <Link to='application' smooth={true} offset={-50} className='cari-job-apply'>Apply</Link>
                 </div>
 
               </div>
@@ -109,7 +116,7 @@ const CareersContent = () => {
 
 
           {/* Application Section */}
-          <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-16'>
+          <div id='application' className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-16'>
             {/* title section */}
             <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
               <div className='main-title-top uppercase'>
