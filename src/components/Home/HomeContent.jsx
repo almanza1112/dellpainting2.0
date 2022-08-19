@@ -126,7 +126,7 @@ const HomeContent = () => {
             {/* Item */}
             <div className='hi'>
               <FaHandshake size={40} color='#DC2626' />
-              <p className='hi-title'>Reliable</p>
+              <p className='hi-title'>Trustworthy</p>
             </div>
           </div>
 
