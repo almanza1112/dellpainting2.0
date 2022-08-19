@@ -143,13 +143,6 @@
         @apply pt-4 sm:pt-10 pb-2;
     }
 
-    .hi-list {
-        @apply list-inside list-none;
-        @apply divide-y divide-red-600 divide-opacity-40;
-        @apply leading-10;
-        @apply text-center;
-    }
-
     /* Services sub-sections */
     .sss-style {
         @apply w-full;
