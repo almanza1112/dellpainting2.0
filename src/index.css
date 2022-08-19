@@ -140,7 +140,7 @@
 
     .hi-title {
         @apply font-semibold text-sm uppercase;
-        @apply pt-4 sm:pt-10 pb-2;
+        @apply pt-4 sm:pt-8 pb-2;
     }
 
     /* Services sub-sections */

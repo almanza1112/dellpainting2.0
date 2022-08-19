@@ -1,8 +1,9 @@
 import React from 'react'
 import UsaMap from 'react-usa-map'
-import {FaAward, FaThumbsUp} from 'react-icons/fa'
+import {FaAward, FaThumbsUp, FaHandshake} from 'react-icons/fa'
 import {AiFillSafetyCertificate} from 'react-icons/ai'
 import {MdOutlineFamilyRestroom} from 'react-icons/md'
+import {BiTimeFive} from 'react-icons/bi'
 
 const HomeContent = () => {
 
@@ -90,7 +91,7 @@ const HomeContent = () => {
             </div>
           </div>
           {/* description section */}
-          <div className='col-span-1 md:col-span-2 lg:col-span-3 grid md:grid-cols-2 md:pl-8 gap-8 md:gap-16'>
+          <div className='col-span-1 md:col-span-2 lg:col-span-3 grid md:grid-cols-3 md:pl-8 gap-8 md:gap-16'>
 
             {/* Item */}
             <div className='hi'>
@@ -115,7 +116,21 @@ const HomeContent = () => {
               <AiFillSafetyCertificate size={40} color='#DC2626' />
               <p className='hi-title'>Safety</p>
             </div>
+
+            {/* Item */}
+            <div className='hi'>
+              <BiTimeFive size={40} color='#DC2626' />
+              <p className='hi-title'>On-time Results</p>
+            </div>
+
+            {/* Item */}
+            <div className='hi'>
+              <FaHandshake size={40} color='#DC2626' />
+              <p className='hi-title'>Reliable</p>
+            </div>
           </div>
+
+          
         </div>
 
 
