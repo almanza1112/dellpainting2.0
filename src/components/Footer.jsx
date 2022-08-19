@@ -57,7 +57,7 @@ function CustomLink({ to, children, ...props }) {
   const resolvesPath = useResolvedPath(to)
   return (
     <li >
-      <Link to={to} {...props} className=''>{children}</Link>
+      <Link to={to} {...props} className='hover:text-red-600'>{children}</Link>
     </li>
   )
 }
