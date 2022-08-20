@@ -66,7 +66,7 @@ function App() {
           <Route path="cardealerships" element={<><CarDealerships /> <Footer /></>} />
           <Route path="selfstorage" element={<><SelfStorage /> <Footer /></>} />
         </Route>
-        <Route path="/careers" element={<><Careers /> <CareersContent/> <Footer /></>} />
+        <Route path="/careers" element={<Careers />} />
         <Route path="/associates" element={<><Associates /> <AssociatesContent/> <Footer /></>} />
         <Route path="/contact" element={<><Contact /> <ContactContent/> <Footer /></>} />
       </Routes>
