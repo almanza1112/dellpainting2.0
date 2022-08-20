@@ -39,7 +39,7 @@ const Careers = () => {
       </div>
 
       <div className='max-w-screen-xl w-full h-full mx-auto'>
-        <div className='flex flex-col p-4 md:px-8 md:pb-16 w-full gap-16'>
+        <div className='w-full flex flex-col p-4 md:px-8 md:pb-16 gap-8 md:gap-16'>
 
           {/* Our Available Positions */}
           <div className='grid md:grid-cols-3 lg:grid-cols-4 md:divide-x gap-8'>
@@ -130,12 +130,12 @@ const Careers = () => {
               </div>
             </div>
             {/* title section */}
-            <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first md:order-last'>
-              <div className='main-title-top uppercase'>
-                Our
+            <div className='flex flex-col justify-center md:justify-start items-center md:items-start md:pl-8 order-first md:order-last'>
+              <div className='main-title-top'>
+                OUR
               </div>
-              <div className='main-title-bottom uppercase'>
-                Available Positions
+              <div className='main-title-bottom'>
+                AVAILABLE POSITIONS
               </div>
             </div>
           </div>
@@ -143,14 +143,14 @@ const Careers = () => {
 
 
           {/* Application Section */}
-          <div id='application' className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:py-16'>
+          <div id='application' className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-8 md:px-8 md:divide-x md:pt-16'>
             {/* title section */}
-            <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
-              <div className='main-title-top uppercase'>
-                Apply
+            <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4'>
+              <div className='main-title-top'>
+                APPLY
               </div>
-              <div className='main-title-bottom uppercase'>
-                Here Today
+              <div className='main-title-bottom'>
+                HERE TODAY
               </div>
             </div>
             {/* description section */}
@@ -227,7 +227,7 @@ const Careers = () => {
                 </div>
 
                 <div className=''>
-                  <button className='flat-btn my-4 '>SUBMIT<ImSpinner2 className={isSending ? 'animate-spin h-5 w-5 ml-3' : 'hidden'} viewBox="0 0 16 16" /></button>
+                  <button className='flat-btn mt-4 '>SUBMIT<ImSpinner2 className={isSending ? 'animate-spin h-5 w-5 ml-3' : 'hidden'} viewBox="0 0 16 16" /></button>
                 </div>
               </form>
 

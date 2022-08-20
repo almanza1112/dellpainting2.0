@@ -97,6 +97,7 @@
         @apply justify-center;
         @apply items-start;
         @apply md:pl-8;
+        @apply py-8 md:py-0;
     }
 
     .card {
