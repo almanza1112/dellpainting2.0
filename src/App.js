@@ -30,9 +30,7 @@ import Spackle from './components/Services/Spackle'
 import Minwax from './components/Services/Minwax'
 import Skim from './components/Services/Skim'
 import Walltalkers from './components/Services/Walltalkers'
-import CareersContent from "./components/Careers/CareersContent"
 import ContactContent from "./components/Contact/ContactContent"
-import AssociatesContent from "./components/Associates/AssociatesContent"
 
 
 function App() {
@@ -67,7 +65,7 @@ function App() {
           <Route path="selfstorage" element={<><SelfStorage /> <Footer /></>} />
         </Route>
         <Route path="/careers" element={<Careers />} />
-        <Route path="/associates" element={<><Associates /> <AssociatesContent/> <Footer /></>} />
+        <Route path="/associates" element={<Associates />} />
         <Route path="/contact" element={<><Contact /> <ContactContent/> <Footer /></>} />
       </Routes>
     </div>
