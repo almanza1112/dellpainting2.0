@@ -30,7 +30,6 @@ import Spackle from './components/Services/Spackle'
 import Minwax from './components/Services/Minwax'
 import Skim from './components/Services/Skim'
 import Walltalkers from './components/Services/Walltalkers'
-import ContactContent from "./components/Contact/ContactContent"
 
 
 function App() {
@@ -66,7 +65,7 @@ function App() {
         </Route>
         <Route path="/careers" element={<Careers />} />
         <Route path="/associates" element={<Associates />} />
-        <Route path="/contact" element={<><Contact /> <ContactContent/> <Footer /></>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
