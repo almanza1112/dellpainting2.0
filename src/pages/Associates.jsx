@@ -27,19 +27,23 @@ import ArborTerraceImg from '../assets/Associates/Clients/arbor_terrace.png'
 import AtlanticHealthImg from '../assets/Associates/Clients/atlantic_health_system.png'
 import AtriaSeniorLivingImg from '../assets/Associates/Clients/atria-senior-living.png'
 import AutozoneImg from '../assets/Associates/Clients/autozone.png'
+import B2BistroImg from '../assets/Associates/Clients/b2bistro.png'
 import BJsImg from '../assets/Associates/Clients/bjs.png'
 import BNYMelonImg from '../assets/Associates/Clients/bny_melon.png'
 import BrandyWineLivingImg from '../assets/Associates/Clients/brandywineliving.png'
+import BrightSideImg from '../assets/Associates/Clients/brightside.webp'
 import BrightViewImg from '../assets/Associates/Clients/brightview-logo.png'
 import ChickfilaImg from '../assets/Associates/Clients/chickfila.png'
 import ChowKingImg from '../assets/Associates/Clients/chowking.png'
 import CMXImg from '../assets/Associates/Clients/cmx-logo-1.png'
 import CostcoImg from '../assets/Associates/Clients/costco.png'
+import CrownCastleImg from '../assets/Associates/Clients/crowncastle.webp'
 import CrunchFitnessImg from '../assets/Associates/Clients/crunchfitness.png'
 import CubeSmartImg from '../assets/Associates/Clients/cubesmart.png'
 import CVSImg from '../assets/Associates/Clients/cvs-pharmacy.png'
 import DaveAndBustersImg from '../assets/Associates/Clients/daveandbusters.png'
 import DevryUniversityImg from '../assets/Associates/Clients/devryuniversity.png'
+import DorasNaturalsImg from '../assets/Associates/Clients/dorasnaturals.webp'
 import EnglewoodHealthImg from '../assets/Associates/Clients/englewoodhealth.png'
 import EricksonLivingImg from '../assets/Associates/Clients/erickson-living.png'
 import EtradeImg from '../assets/Associates/Clients/etrade.png'
@@ -47,15 +51,14 @@ import ExtraSpaceStorageImg from '../assets/Associates/Clients/extraspacestorage
 import FiddlersImg from '../assets/Associates/Clients/fiddlers.jpeg'
 import FidelityImg from '../assets/Associates/Clients/fidelity_investments.png'
 import FiveBelowImg from '../assets/Associates/Clients/fivebelow.png'
-//import GivaudanImg from '../assets/Associates/Clients/givaudan.svg'
 import HalalGuysImg from '../assets/Associates/Clients/halalguys.png'
 import HiltonImg from '../assets/Associates/Clients/hilton.png'
-import HotelImg from '../assets/Associates/Clients/hotel.png'
 import HouseOfImg from '../assets/Associates/Clients/houseof.png'
 import InsmedImg from '../assets/Associates/Clients/insmed.png'
 import JaredImg from '../assets/Associates/Clients/jared.png'
 import KayImg from '../assets/Associates/Clients/kay.png'
 import KearnyBankImg from '../assets/Associates/Clients/kearnybank.png'
+import KmartImg from '../assets/Associates/Clients/kmart.png'
 import KohlsImg from '../assets/Associates/Clients/kohls.png'
 import L3Img from '../assets/Associates/Clients/l3.png'
 import LanvinImg from '../assets/Associates/Clients/lanvin.png'
@@ -77,16 +80,20 @@ import PetcoImg from '../assets/Associates/Clients/petco.png'
 import PetsmartImg from '../assets/Associates/Clients/petsmart.png'
 import PretImg from '../assets/Associates/Clients/pret.png'
 import PTCImg from '../assets/Associates/Clients/ptctherapeutics.png'
+import PublicStorageImg from '../assets/Associates/Clients/publicstorage.png'
 import SalvatoreImg from '../assets/Associates/Clients/salvatoreferragamo.png'
 import ShinolaImg from '../assets/Associates/Clients/Shinola.png'
 import SignifyImg from '../assets/Associates/Clients/signify.png'
+import SpecialtySurgeryImg from '../assets/Associates/Clients/specialtysurgery.png'
 import SolvayImg from '../assets/Associates/Clients/solvay.png'
 import StaplesImg from '../assets/Associates/Clients/staples.png'
 import SubaruImg from '../assets/Associates/Clients/subaru.png'
+import SummitImg from '../assets/Associates/Clients/summithealth.png'
 import SunriseSeniorLivingImg from '../assets/Associates/Clients/sunrise-senior-living.png'
 import TaihoImg from '../assets/Associates/Clients/taiho.png'
 import TexasRoadhouseImg from '../assets/Associates/Clients/texas_roadhouse.png'
 import TheHabitBurgerGrillImg from '../assets/Associates/Clients/the_habit_burger_grill.png'
+import TheResidenceImg from '../assets/Associates/Clients/theresidence.png'
 import TripleFiveImg from '../assets/Associates/Clients/triplefive.png'
 import VermellaImg from '../assets/Associates/Clients/vermella.png'
 import WalmartImg from '../assets/Associates/Clients/walmart.png'
@@ -171,19 +178,23 @@ const Associates = () => {
               <img src={AtlanticHealthImg} className='assoc_logos' />
               <img src={AtriaSeniorLivingImg} className='assoc_logos' />
               <img src={AutozoneImg} className='assoc_logos' />
+              <img src={B2BistroImg} className='assoc_logos' />
               <img src={BJsImg} className='assoc_logos' />
               <img src={BNYMelonImg} className='assoc_logos' />
               <img src={BrandyWineLivingImg} className='assoc_logos' />
+              <img src={BrightSideImg} className='assoc_logos' />
               <img src={BrightViewImg} className='assoc_logos' />
               <img src={ChickfilaImg} className='assoc_logos' />
               <img src={ChowKingImg} className='assoc_logos' />
               <img src={CMXImg} className='assoc_logos' />
               <img src={CostcoImg} className='assoc_logos' />
+              <img src={CrownCastleImg} className='assoc_logos' />
               <img src={CrunchFitnessImg} className='assoc_logos' />
               <img src={CubeSmartImg} className='assoc_logos' />
               <img src={CVSImg} className='assoc_logos' />
               <img src={DaveAndBustersImg} className='assoc_logos' />
               <img src={DevryUniversityImg} className='assoc_logos' />
+              <img src={DorasNaturalsImg} className='assoc_logos' />
               <img src={EnglewoodHealthImg} className='assoc_logos' />
               <img src={EricksonLivingImg} className='assoc_logos' />
               <img src={EtradeImg} className='assoc_logos' />
@@ -193,12 +204,12 @@ const Associates = () => {
               <img src={FiveBelowImg} className='assoc_logos' />
               <img src={HalalGuysImg} className='assoc_logos' />
               <img src={HiltonImg} className='assoc_logos' />
-              <img src={HotelImg} className='assoc_logos' />
               <img src={HouseOfImg} className='assoc_logos' />
               <img src={InsmedImg} className='assoc_logos' />
               <img src={JaredImg} className='assoc_logos' />
               <img src={KayImg} className='assoc_logos' />
               <img src={KearnyBankImg} className='assoc_logos' />
+              <img src={KmartImg} className='assoc_logos' />
               <img src={KohlsImg} className='assoc_logos' />
               <img src={L3Img} className='assoc_logos' />
               <img src={LanvinImg} className='assoc_logos' />
@@ -220,16 +231,20 @@ const Associates = () => {
               <img src={PetsmartImg} className='assoc_logos' />
               <img src={PretImg} className='assoc_logos' />
               <img src={PTCImg} className='assoc_logos' />
+              <img src={PublicStorageImg} className='assoc_logos' />
               <img src={SalvatoreImg} className='assoc_logos' />
               <img src={ShinolaImg} className='assoc_logos' />
               <img src={SignifyImg} className='assoc_logos' />
+              <img src={SpecialtySurgeryImg} className='assoc_logos' />
               <img src={SolvayImg} className='assoc_logos' />
               <img src={StaplesImg} className='assoc_logos' />
               <img src={SubaruImg} className='assoc_logos' />
+              <img src={SummitImg} className='assoc_logos'/>
               <img src={SunriseSeniorLivingImg} className='assoc_logos' />
               <img src={TaihoImg} className='assoc_logos' />
               <img src={TexasRoadhouseImg} className='assoc_logos' />
               <img src={TheHabitBurgerGrillImg} className='assoc_logos' />
+              <img src={TheResidenceImg} className='assoc_logos' />
               <img src={TripleFiveImg} className='assoc_logos' />
               <img src={VermellaImg} className='assoc_logos' />
               <img src={WalmartImg} className='assoc_logos' />

@@ -4,6 +4,7 @@ import { ImSpinner2 } from 'react-icons/im'
 import { FaCheck } from 'react-icons/fa'
 import Footer from '../components/Footer'
 
+
 const Contact = () => {
 
   const [didSend, setMessage] = useState(false);
@@ -13,7 +14,7 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  
+
   return (
     <div className='w-full flex flex-col bg-slate-50'>
       <img src={ContactImg} className='main-bg-img' />
@@ -80,6 +81,7 @@ const Contact = () => {
             <input className='form-field' type="text" placeholder='Subject' name='subject' />
 
             <textarea className='form-field' name="message" rows="5" placeholder='Message' required={true}></textarea>
+            
             <div className=''>
               <button className='flat-btn mt-2 md:mt-8 '>SUBMIT<ImSpinner2 className={isSending ? 'animate-spin h-5 w-5 ml-3' : 'hidden'} viewBox="0 0 16 16" /></button>
             </div>
