@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import bgVideo from '../assets/Home/dellpainting-bg-vid.mp4'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
             <p className='text-2xl md:text-6xl font-extrabold text-white drop-shadow-xl'>PAINTERS YOU CAN TRUST</p>
             <p className='md:text-3xl my-4 text-white drop-shadow-xl font-normal'>Over 25 years of experience at your service </p>
             <div className=''>
-              <button className='flat-btn-home'>GET IN TOUCH</button>
+              <Link to='/contact'><button className='flat-btn-home'>GET IN TOUCH</button></Link>
             </div>
           </div>
         </div>
