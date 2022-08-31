@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, useResolvedPath } from 'react-router-dom'
 import SBELogo from '../assets/Footer/sbe.png'
 import MBELogo from '../assets/Footer/mbe.png'
+import OshaLogo from '../assets/Footer/osha.png'
 
 const Footer = () => {
   return (
@@ -12,12 +13,13 @@ const Footer = () => {
          {/* About Us section */}
           <div className='fss-container'>
             <p className='fss-title'>About Us</p>
-            <p>Dell Painting is a second generation painting contractor giving color
+            <p>Dell Painting Corp. is a second generation painting contractor giving color
               to your projects with 25+ years of experience servicing clients and
               building relationships in the metro NY, NJ and PA area.</p>
-            <div className='flex flex-row pt-4 md:pt-8'>
-              <img src={SBELogo} className='w-[100px] invert' />
-              <img src={MBELogo} className='w-[100px] invert' />
+            <div className='grid grid-cols-3 xs:gap-8 md:gap-4 lg:gap-8 pt-4 md:pt-8 '>
+              <img src={SBELogo} className='max-w-[100px] w-full invert' />
+              <img src={MBELogo} className='max-w-[100px] w-full invert' />
+              <img src={OshaLogo} className='max-w-[100px] w-full h-fit self-center' />
             </div>
           </div>
 
