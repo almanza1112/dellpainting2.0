@@ -30,6 +30,7 @@ import Spackle from './components/Services/Spackle'
 import Minwax from './components/Services/Minwax'
 import Skim from './components/Services/Skim'
 import Walltalkers from './components/Services/Walltalkers'
+import PowerWashing from "./components/Services/PowerWashing"
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <Route path='minwax' element={<><Minwax /> <Footer /></>} />
           <Route path='skim' element={<><Skim /> <Footer /></>} />
           <Route path='walltalkers' element={<><Walltalkers /> <Footer /></>} />
+          <Route path='powerwashing' element={<><PowerWashing /> <Footer /></>} />
         </Route>
         <Route path="/portfolio" element={<Portfolio />} >
           <Route path="" element={<><PortfolioContent /> <Footer /></>}/>

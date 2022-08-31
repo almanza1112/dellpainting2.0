@@ -9,6 +9,7 @@ import WalltalkersThmb from '../../assets/Services/walltalkers_thmb.png'
 import SkimThmb from '../../assets/Services/skim.png'
 import NewConstructiong from '../../assets/Services/new_construction_thmb.jpg'
 import FRPPanelsThmb from '../../assets/Services/frp_panels_thmb.jpg'
+import PowerWashingThmb from '../../assets/Services/power_washing.png'
 
 const ServicesContent = () => {
     return (
@@ -76,6 +77,13 @@ const ServicesContent = () => {
                     <Link to={'walltalkers'}>
                         <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${WalltalkersThmb})` }} className='card services-card-img'>
                             <span className='card-title'>Walltalkers</span>
+                        </div>
+                    </Link>
+
+                    {/* Item */}
+                    <Link to={'powerwashing'}>
+                        <div style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(${PowerWashingThmb})` }} className='card services-card-img'>
+                            <span className='card-title'>Power Washing</span>
                         </div>
                     </Link>
                     

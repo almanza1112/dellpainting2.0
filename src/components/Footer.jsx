@@ -36,6 +36,7 @@ const Footer = () => {
               <CustomLink to='/services/minwax'>Minwax Staining</CustomLink>
               <CustomLink to='/services/skim'>Skim Coating / Level 5 Finish</CustomLink>
               <CustomLink to='/services/walltalkers'>Wall Talkers</CustomLink>
+              <CustomLink to='/services/powerwashing'>Power Washing</CustomLink>
             </ul>
           </div>
 
