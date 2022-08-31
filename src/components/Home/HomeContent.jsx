@@ -48,14 +48,13 @@ const HomeContent = () => {
           {/* description section */}
           <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col md:pl-8'>
             <p>
-              Dell Painting is a <span className='font-bold'>Family Owned Business</span> providing Painting and Wallcovering services. 
-              Founded by Marcial Delgado who has <span className='font-bold'>25+ years of experience</span> in the industry the New York 
+              Dell Painting Corp. is a <span className='font-bold'>Family Owned Business</span> founded by Marcial Delgado, who 
+              has <span className='font-bold'>25+ years of experience</span> in the industry, the New York 
               Metropolitan Area has trusted him and his team of professionals with their projects and 
-              ensuring <span className='font-bold'>all expectations are met</span>. The painting application process requires a unique 
-              level of skills and experience that we have perfected over the years. We recognize 
+              ensuring <span className='font-bold'>all expectations are met</span>. We recognize 
               what’s important to Owners, Architects, General Contractors, Construction Managers and 
-              Property Managers when it comes to painting and our other services and we are completely 
-              confident that <span className='font-bold'>you can count on Dell Painting</span> to address your specific needs while 
+              Property Managers when it comes to providing services and we are completely 
+              confident that <span className='font-bold'>you can count on Dell Painting Corp.</span> to address your specific needs while 
               delivering first-class results.          
             </p>
 
@@ -123,7 +122,7 @@ const HomeContent = () => {
             {/* Item */}
             <div className='hi'>
               <BiTimeFive size={40} color='#DC2626' />
-              <p className='hi-title'>On-time Results</p>
+              <p className='hi-title'>Meet Deadlines</p>
             </div>
 
             {/* Item */}
