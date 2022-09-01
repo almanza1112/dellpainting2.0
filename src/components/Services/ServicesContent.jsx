@@ -13,8 +13,8 @@ import PowerWashingThmb from '../../assets/Services/power_washing.png'
 
 const ServicesContent = () => {
     return (
-        <div className='w-full flex flex-col p-4 md:px-8 md:pb-16 bg-slate-50'>
-            <div className='max-w-screen-xl w-full h-full mx-auto'>
+        <div className='w-full flex flex-col md:pb-16 bg-slate-50'>
+            <div className='max-w-screen-xl w-full h-full mx-auto p-4 md:px-8 '>
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16'>
                     {/* Item */}
