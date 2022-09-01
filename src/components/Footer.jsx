@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='grid grid-cols-3 xs:gap-8 md:gap-4 lg:gap-8 pt-4 md:pt-8 '>
               <img src={SBELogo} className='max-w-[100px] w-full invert' />
               <img src={MBELogo} className='max-w-[100px] w-full invert' />
-              <img src={OshaLogo} className='max-w-[100px] w-full h-fit self-center' />
+              <img src={OshaLogo} className='max-w-[100px] w-full h-auto self-center' />
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { VscClose } from 'react-icons/vsc'
 import Img1 from '../../assets/Portfolio/Banks/kearny_bank/kb1.jpeg'
 
@@ -18,8 +18,15 @@ const Banks = () => {
     setModel(true);
   }
 
+  const myRef = useRef()
+  const executeScroll = () => myRef.current.scrollIntoView();
+  // Makes sure page starts on top of section when rendered
+  useEffect(() => {
+    executeScroll()
+  }, [])
+
   return (
-    <div className='w-full flex flex-col bg-slate-50'>
+    <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
