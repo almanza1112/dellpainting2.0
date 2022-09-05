@@ -5,11 +5,11 @@ import MinwaxImg from '../../assets/Services/minwax.png'
 
 const Minwax = () => {
 
-  const myRef = useRef()
+  const myRef = useRef(null)
   const executeScroll = () => myRef.current.scrollIntoView();
   // Makes sure page starts on top of section when rendered
   useEffect(() => {
-    executeScroll()
+    myRef.current.scrollIntoView({block:"start"})
   }, [])
 
   return (

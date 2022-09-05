@@ -9,7 +9,7 @@ const Spackle = () => {
   const executeScroll = () => myRef.current.scrollIntoView();
   // Makes sure page starts on top of section when rendered
   useEffect(() => {
-    executeScroll()
+    myRef.current.scrollIntoView({block: 'start'})
   }, [])
   
   return (
