@@ -3,7 +3,6 @@ import Home from './pages/Home'
 import Services from './pages/Services'
 import ServicesContent from './components/Services/ServicesContent'
 import Portfolio from './pages/Portfolio'
-import PortfolioContent from "./components/Portfolio/PortfolioContent"
 import Apartments from './components/Portfolio/Apartments'
 import SeniorLivings from './components/Portfolio/SeniorLivings'
 import RetailStores from './components/Portfolio/RetailStores'
@@ -52,19 +51,18 @@ function App() {
           <Route path='walltalkers' element={<><Walltalkers /> <Footer /></>} />
           <Route path='powerwashing' element={<><PowerWashing /> <Footer /></>} />
         </Route>
-        <Route path="/portfolio" element={<Portfolio />} >
-          <Route path="" element={<><PortfolioContent /> <Footer /></>}/>
-          <Route path="apartments" element={<><Apartments /> <Footer /></>} />
-          <Route path="seniorlivings" element={<><SeniorLivings/> <Footer /></>} />
-          <Route path="retailstores" element={<><RetailStores /> <Footer /></>} />
-          <Route path="hotels" element={<><Hotels /> <Footer /></>} />
-          <Route path="entertainment" element={<><Entertainment /> <Footer /></>} />
-          <Route path="restaurants" element={<><Restaurants /> <Footer /></>} />
-          <Route path="banks" element={<><Banks /> <Footer /></>} />
-          <Route path="offices" element={<><Offices /> <Footer /></>} />
-          <Route path="cardealerships" element={<><CarDealerships /> <Footer /></>} />
-          <Route path="selfstorage" element={<><SelfStorage /> <Footer /></>} />
-        </Route>
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio/apartments" element={<Apartments/>} />
+        <Route path="/portfolio/seniorlivings" element={<SeniorLivings />} />
+        <Route path="/portfolio/retailstores" element={<RetailStores />} />
+        <Route path="/portfolio/hotels" element={<Hotels />} />
+        <Route path="/portfolio/entertainment" element={<Entertainment />} />
+        <Route path="/portfolio/restaurants" element={<Restaurants /> } />
+        <Route path="/portfolio/banks" element={<Banks /> } />
+        <Route path="/portfolio/offices" element={<Offices />} />
+        <Route path="/portfolio/cardealerships" element={<CarDealerships /> } />
+        <Route path="/portfolio/selfstorage" element={<SelfStorage />} />
+
         <Route path="/careers" element={<Careers />} />
         <Route path="/associates" element={<Associates />} />
         <Route path="/contact" element={<Contact />} />

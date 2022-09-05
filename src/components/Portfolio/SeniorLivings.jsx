@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import SeniorLivingsCover from '../../assets/Portfolio/SeniorLivings/senior_livings_cover.jpg'
 import Img1 from '../../assets/Portfolio/SeniorLivings/meadow_cottages/mc1.jpeg'
 import Img2 from '../../assets/Portfolio/SeniorLivings/meadow_cottages/mc2.jpeg'
 import Img3 from '../../assets/Portfolio/SeniorLivings/sunrise_senior_living/bridgewater/bw1.jpeg'
@@ -8,6 +9,7 @@ import Img5 from '../../assets/Portfolio/SeniorLivings/sunrise_senior_living/bri
 import Img6 from '../../assets/Portfolio/SeniorLivings/sunrise_senior_living/summit/s1.jpeg'
 import Img7 from '../../assets/Portfolio/SeniorLivings/sunrise_senior_living/summit/s2.jpeg'
 import Img8 from '../../assets/Portfolio/SeniorLivings/sunrise_senior_living/summit/s3.jpeg'
+import Footer from '../Footer'
 
 
 const SeniorLivings = () => {
@@ -63,6 +65,8 @@ const SeniorLivings = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={SeniorLivingsCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -91,7 +95,9 @@ const SeniorLivings = () => {
           })}
         </div>
       </div>
-    </div>  )
+      <Footer />
+    </div>  
+    )
 }
 
 export default SeniorLivings

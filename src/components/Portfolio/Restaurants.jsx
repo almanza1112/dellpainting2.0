@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import RestaurantsCover from '../../assets/Portfolio/Restaurants/restaurants_cover.jpg'
 import Img1 from '../../assets/Portfolio/Restaurants/applebees/ab1.jpeg'
 import Img2 from '../../assets/Portfolio/Restaurants/applebees/ab2.jpeg'
 import Img3 from '../../assets/Portfolio/Restaurants/applebees/ab3.jpeg'
@@ -7,6 +8,7 @@ import Img4 from '../../assets/Portfolio/Restaurants/applebees/ab4.jpeg'
 import Img5 from '../../assets/Portfolio/Restaurants/chik_fil_a/cf1.jpeg'
 import Img6 from '../../assets/Portfolio/Restaurants/chik_fil_a/cf2.jpeg'
 import Img7 from '../../assets/Portfolio/Restaurants/chik_fil_a/cf3.jpeg'
+import Footer from '../Footer'
 
 
 const Restaurants = () => {
@@ -58,6 +60,8 @@ const Restaurants = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={RestaurantsCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -86,6 +90,7 @@ const Restaurants = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

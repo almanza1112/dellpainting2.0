@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import OfficesCover from '../../assets/Portfolio/Offices/offices_cover.jpg'
 import Img1 from '../../assets/Portfolio/Offices/insmed_pharmaceutical/ip1.jpeg'
 import Img2 from '../../assets/Portfolio/Offices/insmed_pharmaceutical/ip2.jpeg'
 import Img3 from '../../assets/Portfolio/Offices/insmed_pharmaceutical/ip3.jpeg'
@@ -24,6 +25,7 @@ import Img21 from '../../assets/Portfolio/Offices/solvay/s2.jpeg'
 import Img22 from '../../assets/Portfolio/Offices/solvay/s3.jpeg'
 import Img23 from '../../assets/Portfolio/Offices/solvay/s4.jpeg'
 import Img24 from '../../assets/Portfolio/Offices/solvay/s5.jpeg'
+import Footer from '../Footer'
 
 
 const Offices = () => {
@@ -144,6 +146,8 @@ const Offices = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={OfficesCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -172,6 +176,7 @@ const Offices = () => {
           })}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

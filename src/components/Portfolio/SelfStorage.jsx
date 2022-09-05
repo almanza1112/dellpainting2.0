@@ -1,9 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import {VscClose} from 'react-icons/vsc'
+import SelfStorageCover from '../../assets/Portfolio/SelfStorage/self_storage_cover.png'
 import Img1 from '../../assets/Portfolio/SelfStorage/cube_smart_self_storage/csss1.jpg'
 import Img2 from '../../assets/Portfolio/SelfStorage/cube_smart_self_storage/csss2.jpg'
 import Img3 from '../../assets/Portfolio/SelfStorage/extraspace_self_storage_ridgefield/essr1.jpg'
 import Img4 from '../../assets/Portfolio/SelfStorage/extraspace_self_storage_ridgefield/essr2.jpg'
+import Footer from '../Footer'
 
 
 const SelfStorage = () => {
@@ -43,6 +45,8 @@ const SelfStorage = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={SelfStorageCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -71,6 +75,7 @@ const SelfStorage = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

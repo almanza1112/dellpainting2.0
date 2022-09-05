@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import ApartmentsCover from '../../assets/Portfolio/Apartments/apartments_cover.jpg'
 import Img1 from '../../assets/Portfolio/Apartments/carraway_apartments/ca1.jpeg'
 import Img2 from '../../assets/Portfolio/Apartments/carraway_apartments/ca2.jpeg'
 import Img3 from '../../assets/Portfolio/Apartments/carraway_apartments/ca3.jpeg'
@@ -7,6 +8,7 @@ import Img4 from '../../assets/Portfolio/Apartments/the_ridge_at_north_arlington
 import Img5 from '../../assets/Portfolio/Apartments/the_ridge_at_north_arlington/trana2.jpeg'
 import Img6 from '../../assets/Portfolio/Apartments/vermella_kearny/vk1.jpeg'
 import Img7 from '../../assets/Portfolio/Apartments/vermella_kearny/vk2.jpeg'
+import Footer from '../../components/Footer'
 
 
 const Apartments = () => {
@@ -58,6 +60,7 @@ const Apartments = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={ApartmentsCover} className='main-bg-img' />
 
       <div className='main-content'>
         <div className='main-title-section'>
@@ -87,6 +90,8 @@ const Apartments = () => {
           })}
         </div>
       </div>
+      <Footer />
+
     </div>
   )
 }

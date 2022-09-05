@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import CarDealershipsCover from '../../assets/Portfolio/CarDealerships/car_dealerships_cover.jpg'
 import Img1 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc1.jpeg'
 import Img2 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc2.jpeg'
 import Img3 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc3.jpeg'
@@ -7,6 +8,8 @@ import Img4 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldw
 import Img5 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc5.jpeg'
 import Img6 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc6.jpeg'
 import Img7 from '../../assets/Portfolio/CarDealerships/mercedes_benz_west_caldwell/mbwc7.jpeg'
+import Footer from '../../components/Footer'
+
 
 const CarDealership = () => {
 
@@ -57,6 +60,8 @@ const CarDealership = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={CarDealershipsCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -85,6 +90,7 @@ const CarDealership = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

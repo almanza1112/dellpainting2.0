@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import BanksCover from '../../assets/Portfolio/Banks/banks_cover.jpg'
 import Img1 from '../../assets/Portfolio/Banks/kearny_bank/kb1.jpeg'
+import Footer from '../../components/Footer'
+
 
 const Banks = () => {
 
@@ -27,6 +30,8 @@ const Banks = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={BanksCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -55,6 +60,7 @@ const Banks = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

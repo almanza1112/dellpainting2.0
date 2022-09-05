@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import RetailStoresCover from '../../assets/Portfolio/RetailStores/retail_stores_cover.jpg'
 import Img1 from '../../assets/Portfolio/RetailStores/kohls/k1.jpeg'
 import Img2 from '../../assets/Portfolio/RetailStores/kohls/k2.jpeg'
 import Img3 from '../../assets/Portfolio/RetailStores/kohls/k3.jpeg'
@@ -12,6 +13,7 @@ import Img9 from '../../assets/Portfolio/RetailStores/molton_brown/mb1.jpeg'
 import Img10 from '../../assets/Portfolio/RetailStores/molton_brown/mb2.jpeg'
 import Img11 from '../../assets/Portfolio/RetailStores/molton_brown/mb3.jpeg'
 import Img12 from '../../assets/Portfolio/RetailStores/molton_brown/mb4.jpeg'
+import Footer from '../Footer'
 
 const RetailStores = () => {
 
@@ -82,6 +84,8 @@ const RetailStores = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={RetailStoresCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -110,6 +114,7 @@ const RetailStores = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

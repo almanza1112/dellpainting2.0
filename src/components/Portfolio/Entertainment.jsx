@@ -1,8 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import EntertainmentCover from '../../assets/Portfolio/Entertainment/entertainment_cover.jpg'
 import Img1 from '../../assets/Portfolio/Entertainment/fiddlers_elbow_country_club/fecc1.jpeg'
 import Img2 from '../../assets/Portfolio/Entertainment/fiddlers_elbow_country_club/fecc2.jpeg'
 import Img3 from '../../assets/Portfolio/Entertainment/fiddlers_elbow_country_club/fecc3.jpeg'
+import Footer from '../../components/Footer'
+
 
 const Entertainment = () => {
 
@@ -37,6 +40,8 @@ const Entertainment = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={EntertainmentCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -65,6 +70,7 @@ const Entertainment = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

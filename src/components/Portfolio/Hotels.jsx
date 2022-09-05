@@ -1,8 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { VscClose } from 'react-icons/vsc'
+import HotelsCover from '../../assets/Portfolio/Hotels/hotels_cover.jpg'
 import Img1 from '../../assets/Portfolio/Hotels/hilton/Hilton1.jpeg'
 import Img2 from '../../assets/Portfolio/Hotels/hilton/Hilton2.jpeg'
 import Img3 from '../../assets/Portfolio/Hotels/hilton/Hilton3.jpeg'
+import Footer from '../Footer'
+
 
 const Hotels = () => {
 
@@ -37,6 +40,8 @@ const Hotels = () => {
 
   return (
     <div ref={myRef} className='w-full flex flex-col bg-slate-50'>
+      <img src={HotelsCover} className='main-bg-img' />
+
       <div className='main-content'>
         <div className='main-title-section'>
           <p className='main-title-top'>OUR</p>
@@ -65,6 +70,7 @@ const Hotels = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
