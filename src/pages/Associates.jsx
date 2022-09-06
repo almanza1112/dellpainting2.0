@@ -148,7 +148,7 @@ const Associates = () => {
             </div>
           </div>
           {/* Title section */}
-          <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first md:order-last'>
+          <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first md:order-last'>
             <div className='main-title-top uppercase'>
               Our
             </div>
@@ -161,7 +161,7 @@ const Associates = () => {
         {/* Clients section */}
         <div className='grid md:grid-cols-3 lg:grid-cols-4  md:divide-x py-4 md:py-16'>
           {/* Title section */}
-          <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first'>
+          <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first'>
             <div className='main-title-top uppercase'>
               Our
             </div>

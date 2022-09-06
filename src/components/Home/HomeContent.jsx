@@ -37,7 +37,7 @@ const HomeContent = () => {
         {/* About Dell Painting section */}
         <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-12 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
-          <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
+          <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
               About
             </div>
@@ -71,7 +71,7 @@ const HomeContent = () => {
             </div>
           </div>
           {/* description section */}
-          <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first md:order-last'>
+          <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4 md:pl-8 order-first md:order-last'>
             <div className='main-title-top uppercase'>
               Where
             </div>
@@ -84,7 +84,7 @@ const HomeContent = () => {
         {/* What Separates Us section */}
         <div className='grid md:grid-cols-3 lg:grid-cols-4 px-4 py-12 md:px-8 md:divide-x md:py-32'>
           {/* title section */}
-          <div className='flex flex-row sm:flex-col justify-center md:justify-start items-center md:items-start pb-4'>
+          <div className='flex flex-col justify-center md:justify-start items-center md:items-start pb-4'>
             <div className='main-title-top uppercase'>
               What
             </div>
