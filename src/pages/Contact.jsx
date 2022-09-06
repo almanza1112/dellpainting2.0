@@ -53,9 +53,9 @@ const Contact = () => {
       </div>
 
       <div className='max-w-screen-xl mx-auto w-full h-full flex flex-col justify-center items-center'>
-        <div className='grid md:grid-cols-3 lg:grid-cols-4 md:divide-x md:pb-16 md:pt-12 md:pl-8 md:gap-8'>
+        <div className='w-full grid md:grid-cols-3 lg:grid-cols-4 px-4 md:divide-x md:pb-16 md:pt-12 md:pl-8 md:gap-8'>
           {/* Form section */}
-          <div className='col-span-1 md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
+          <div className='w-full md:col-span-2 lg:col-span-3 flex flex-col justify-center items-center'>
             {/* Form */}
             <form id='' method='POST' action='' className='flex flex-col w-full pt-8 md:pt-0'> {/* pt-8 md:pt-0 is for mobile view */}
               <div className={didSend ? 'mb-8 border border-gray-800 py-4 grid grid-cols-5' : 'hidden'}>
@@ -70,7 +70,7 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className='grid md:grid-cols-2 md:gap-4'>
+              <div className='w-full grid md:grid-cols-2 md:gap-4'>
                 <input className='form-field' type="text" placeholder='Name' name='name' required={true} />
                 <input className='form-field' type="email" placeholder='Email' name='email' required={true} />
               </div>
