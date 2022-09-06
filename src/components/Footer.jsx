@@ -10,17 +10,15 @@ const Footer = () => {
       <div className='max-w-screen-xl w-full h-full mx-auto px-4 py-8 md:px-8 md:py-16 justify-center flex'>
         <div className='w-full grid md:grid-cols-3 gap-8 md:gap-16'>
 
-         {/* About Us section */}
+          {/* Contact section */}
           <div className='fss-container'>
-            <p className='fss-title'>About Us</p>
-            <p>Dell Painting Corp. is a second generation painting contractor giving color
-              to your projects with 25+ years of experience servicing clients and
-              building relationships in the metro NY, NJ and PA area.</p>
-            <div className='grid grid-cols-3 xs:gap-8 md:gap-4 lg:gap-8 pt-4 md:pt-8 '>
-              <img src={SBELogo} className='max-w-[100px] w-full invert' />
-              <img src={MBELogo} className='max-w-[100px] w-full invert' />
-              <img src={OshaLogo} className='max-w-[100px] w-full h-auto self-center' />
-            </div>
+            <p className='fss-title'>Contact</p>
+            <p>Dell Painting</p>
+            <p>420 River Road</p>
+            <p className='mb-4'>North Arlington, NJ 07031</p>
+            <p>PHONE: (201) 998-0700</p>
+            <p className='mb-4'>FAX: (201) 299-3776</p>
+            <p>admin@dellpainting.com</p>
           </div>
 
           {/* Services  */}
@@ -40,15 +38,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact section */}
+          {/* About Us section */}
           <div className='fss-container'>
-            <p className='fss-title'>Contact</p>
-            <p>Dell Painting</p>
-            <p>420 River Road</p>
-            <p className='mb-4'>North Arlington, NJ 07031</p>
-            <p>PHONE: (201) 998-0700</p>
-            <p className='mb-4'>FAX: (201) 299-3776</p>
-            <p>admin@dellpainting.com</p>
+            <p className='fss-title'>About Us</p>
+            <p>Dell Painting Corp. is a second generation painting contractor giving color
+              to your projects with 25+ years of experience servicing clients and
+              building relationships in the metro NY, NJ and PA area.</p>
+            <div className='grid grid-cols-3 xs:gap-8 md:gap-4 lg:gap-8 pt-4 md:pt-8 '>
+              <img src={SBELogo} className='max-w-[100px] w-full invert' />
+              <img src={MBELogo} className='max-w-[100px] w-full invert' />
+              <img src={OshaLogo} className='max-w-[100px] w-full h-auto self-center' />
+            </div>
           </div>
         </div>
       </div>
