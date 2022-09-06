@@ -306,7 +306,7 @@
     /* contact info = ci */
     .ci-item {
         @apply flex flex-col;
-        @apply justify-start items-start;
+        @apply justify-start items-center md:items-start;
     }
 
     .ci-title {
