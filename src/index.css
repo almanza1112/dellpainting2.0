@@ -172,6 +172,7 @@
     }
 
     .sss-title{
+        @apply text-center sm:text-start;
         @apply text-2xl;
         @apply font-normal;
         @apply py-4 md:py-8;
