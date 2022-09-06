@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar"
 import Home from './pages/Home'
 import Services from './pages/Services'
-import ServicesContent from './components/Services/ServicesContent'
 import Portfolio from './pages/Portfolio'
 import Apartments from './components/Portfolio/Apartments'
 import SeniorLivings from './components/Portfolio/SeniorLivings'
@@ -38,19 +37,17 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<><Home /> <HomeContent/><Footer/></>} />
-        <Route path="/services" element={<Services />} >
-          <Route path='' element={<><ServicesContent /> <Footer/></>} />
-          <Route path='maintenance' element={<><Maintenance /> <Footer /></>} />
-          <Route path='newconstruction' element={<><NewConstruction /> <Footer /></>} />
-          <Route path='wallcovering' element={<><Wallcovering /> <Footer /></>} />
-          <Route path='speciality' element={<><SpecialityFinishes /> <Footer /></>} />
-          <Route path='frppanels' element={<><FRPPanels /> <Footer /></>} />
-          <Route path='spackle' element={<><Spackle /> <Footer /></>} />
-          <Route path='minwax' element={<><Minwax /> <Footer /></>} />
-          <Route path='skim' element={<><Skim /> <Footer /></>} />
-          <Route path='walltalkers' element={<><Walltalkers /> <Footer /></>} />
-          <Route path='powerwashing' element={<><PowerWashing /> <Footer /></>} />
-        </Route>
+        <Route path="/services" element={<Services />} />
+        <Route path='/services/maintenance' element={<Maintenance />} />
+        <Route path='/services/newconstruction' element={<NewConstruction />} />
+        <Route path='/services/wallcovering' element={<Wallcovering />} />
+        <Route path='/services/speciality' element={<SpecialityFinishes />} />
+        <Route path='/services/frppanels' element={<FRPPanels />} />
+        <Route path='/services/spackle' element={<Spackle />} />
+        <Route path='/services/minwax' element={<Minwax />} />
+        <Route path='/services/skim' element={<Skim />} />
+        <Route path='/services/walltalkers' element={<Walltalkers />} />
+        <Route path='/services/powerwashing' element={<PowerWashing />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio/apartments" element={<Apartments/>} />
         <Route path="/portfolio/seniorlivings" element={<SeniorLivings />} />

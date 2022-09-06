@@ -147,30 +147,18 @@
 
     /* Services sub-sections */
     .sss-style {
-        @apply w-full;
+        @apply w-full md:h-screen;
         @apply bg-slate-50;
-        @apply scroll-m-20;
+        @apply pt-20;
     }
 
     .sss-container{
         @apply max-w-screen-xl; 
         @apply w-full h-full;
         @apply mx-auto;
-        @apply p-4 md:px-8 pb-8 md:pb-16;
+        @apply p-4 md:px-8 pb-8 ;
         @apply flex flex-col;
         @apply justify-center;
-    }
-
-    .sss-back {
-        @apply inline-flex;
-        @apply justify-start;
-        @apply items-center;
-        @apply text-red-600;
-        @apply mb-8;
-    }
-
-    .sss-back-text {
-        @apply text-gray-500 text-sm;
     }
 
     .sss-content {

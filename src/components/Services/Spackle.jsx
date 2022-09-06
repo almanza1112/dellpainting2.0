@@ -1,23 +1,17 @@
-import React, { useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom'
-import { MdOutlineArrowBackIosNew } from 'react-icons/md'
+import React, { useEffect } from 'react'
 import SpackleImg from '../../assets/Services/spackle.png'
+import Footer from '../Footer';
 
 const Spackle = () => {
 
-  const myRef = useRef()
-  const executeScroll = () => myRef.current.scrollIntoView();
-  // Makes sure page starts on top of section when rendered
+  // Makes sure page starts on top when rendered
   useEffect(() => {
-    myRef.current.scrollIntoView({block: 'start'})
+    window.scrollTo(0, 0)
   }, [])
   
   return (
-    <div ref={myRef} className='sss-style'>
+    <div className='sss-style'>
       <div className='sss-container'>
-        <Link to={'/services'} className='sss-back'>
-          <MdOutlineArrowBackIosNew size={20} /><span className='sss-back-text'>Other Services</span>
-        </Link>
         <div className='sss-content'>
           <div className='sss-text'>
             <p className='sss-title'>Spackle</p>
@@ -30,7 +24,7 @@ const Spackle = () => {
           </div>
         </div>
       </div>
-
+      <Footer/>
     </div>
   )
 }
