@@ -13,11 +13,16 @@ const Footer = () => {
           {/* Contact section */}
           <div className='fss-container'>
             <p className='fss-title'>Contact</p>
+            <p className='text-sm mb-2 text-red-600 font-bold'>NEW JERSEY</p>
             <p>Dell Painting</p>
             <p>420 River Road</p>
             <p className='mb-4'>North Arlington, NJ 07031</p>
             <p>PHONE: (201) 998-0700</p>
             <p className='mb-4'>FAX: (201) 299-3776</p>
+            <p className='text-sm mb-2 text-red-600 font-bold'>FLORIDA</p>
+            <p>1975 E. Sunrise Blvd., Suite 523</p>
+            <p className='mb-4'>Fort Lauderdale, FL 33305</p>
+            <p className='mb-4'>PHONE: (754) 276-0059</p>
             <p>admin@dellpainting.com</p>
           </div>
 
