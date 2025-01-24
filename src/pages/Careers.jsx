@@ -22,11 +22,11 @@ const Careers = () => {
 
     emailjs
       .sendForm(
-        "service_3bgdrlm", // Replace with your EmailJS service ID
-        "template_o3net7v", // Replace with your EmailJS template ID
+        "service_g6t032p", // Replace with your EmailJS service ID
+        "template_wi3vcli", // Replace with your EmailJS template ID
         form.current,
         {
-          publicKey: "txU47S_NAMPVtQ8ZX",
+          publicKey: "QKfq72spFqIdjqQMu",
         } // Replace with your EmailJS user ID
       )
       .then(
